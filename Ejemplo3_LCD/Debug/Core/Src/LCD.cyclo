@@ -1,0 +1,10 @@
+../Core/Src/LCD.c:13:6:LCD_STM32_CMD	1
+../Core/Src/LCD.c:20:6:LCD_STM32_BUS	5
+../Core/Src/LCD.c:36:6:LCD_STM32_INIT	1
+../Core/Src/LCD.c:55:6:LCD_STM32_SET_CURSOR	4
+../Core/Src/LCD.c:83:6:LCD_STM32_PRINT_CHAR	1
+../Core/Src/LCD.c:92:6:LCD_STM32_PRINT_STRING	2
+../Core/Src/LCD.c:101:6:LCD_STM32_New_Char	5
+../Core/Src/LCD.c:237:6:LCD_STM32_Print_New_Char	1
+../Core/Src/LCD.c:243:6:LCD_STM32_Clear	1
+../Core/Src/LCD.c:248:6:LCD_STM32_Home	1
