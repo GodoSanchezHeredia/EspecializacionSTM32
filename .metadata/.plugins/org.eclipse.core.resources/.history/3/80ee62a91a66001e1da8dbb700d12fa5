@@ -24,9 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "string.h"
-#include "stdio.h"
 /* USER CODE END Includes */
-
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
@@ -64,9 +62,10 @@ uint8_t dato2[50] = "Se Detecto  un caracter\n\r";
 
 int __io_putchar(int ch){
 
-	  HAL_UART_Transmit(&huart2, (const uint8_t *)&ch, (uint16_t)1, HAL_MAX_DELAY);
 
-	  return ch;
+	  HAL_UART_Transmit(&huart2, (const uint8_t *)ch, (uint16_t)1, HAL_MAX_DELAY);
+
+
 }
 
 
@@ -112,9 +111,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  //HAL_UART_Transmit(&huart2, (const uint8_t *)dato, (uint16_t)strlen(dato), HAL_MAX_DELAY);
+	  HAL_UART_Transmit(&huart2, (const uint8_t *)dato, (uint16_t)strlen(dato), HAL_MAX_DELAY);
 	  HAL_Delay(1000);
-	  printf("Hola mundo con Printf , entero : %u , flotante : %0.2f \n\r",25,35.23);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
