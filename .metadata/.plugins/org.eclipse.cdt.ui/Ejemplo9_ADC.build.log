@@ -1,0 +1,17 @@
+16:47:08 **** Incremental Build of configuration Debug for project Ejemplo9_ADC ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc -o "Ejemplo9_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo9_ADC\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo9_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo9_ADC.elf
+ 
+arm-none-eabi-size   Ejemplo9_ADC.elf 
+arm-none-eabi-objdump -h -S  Ejemplo9_ADC.elf  > "Ejemplo9_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  14612	    112	   2056	  16780	   418c	Ejemplo9_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo9_ADC.list
+ 
+
+16:47:12 Build Finished. 0 errors, 0 warnings. (took 4s.493ms)
+
