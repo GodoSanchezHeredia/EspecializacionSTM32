@@ -144,11 +144,11 @@ uint32_t AnalogRead(uint32_t channel){
 	      Error_Handler();
 	    }
 	    HAL_ADC_Start(&hadc1);
-	    if(HAL_ADC_PollForConversion(&hadc1, 100000)){
+	    if(HAL_ADC_PollForConversion(&hadc1, 1000000)){
 
 	    	ADC_VALUE = HAL_ADC_GetValue(&hadc1);
 	    }
-
+	    HAL_ADC_Stop(&hadc1);
 	    return ADC_VALUE;
 }
 
