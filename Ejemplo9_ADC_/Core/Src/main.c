@@ -74,13 +74,13 @@ uint32_t AnalogRead(uint32_t channel){
 
 	    sConfig.Channel = channel;
 	    sConfig.Rank = 1;
-	    sConfig.SamplingTime = ADC_SAMPLETIME_15CYCLES;
+	    sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
 	    if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
 	    {
 	      Error_Handler();
 	    }
 	    HAL_ADC_Start(&hadc1);
-	    if(HAL_ADC_PollForConversion(&hadc1, 1000000)){
+	    if(HAL_ADC_PollForConversion(&hadc1, 1000000)==HAL_OK){
 
 	    	ADC_VALUE = HAL_ADC_GetValue(&hadc1);
 	    }
