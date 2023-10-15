@@ -1,0 +1,10 @@
+16:03:46 **** Incremental Build of configuration Debug for project Ejemplo11_Ubidots ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo11_Ubidots.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17660	    112	   2056	  19828	   4d74	Ejemplo11_Ubidots.elf
+Finished building: default.size.stdout
+ 
+
+16:03:47 Build Finished. 0 errors, 0 warnings. (took 1s.49ms)
+

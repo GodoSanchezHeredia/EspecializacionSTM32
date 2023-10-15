@@ -574,3 +574,18 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-15 15:12:55.212
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-15 15:48:40.596
+!MESSAGE Indexed 'Ejemplo11_Ubidots' (19 sources, 81 headers) in 9.23 sec: 4,234 declarations; 17,738 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-15 16:48:17.113
+!MESSAGE Indexed 'Ejemplo12_I2C' (19 sources, 81 headers) in 5.01 sec: 4,234 declarations; 17,738 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-15 16:48:44.818
+!MESSAGE Indexed 'Ejemplo12_I2C_SCAN' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-15 16:49:49.394
+!MESSAGE Indexed 'Ejemplo12_I2C_SCAN' (19 sources, 106 headers) in 4.66 sec: 8,035 declarations; 30,924 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.38%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-15 16:49:55.053
+!MESSAGE Indexed 'Ejemplo9_ADC' (28 sources, 119 headers) in 5.63 sec: 10,155 declarations; 43,687 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.27%)
