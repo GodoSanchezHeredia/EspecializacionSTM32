@@ -1,39 +1,24 @@
-16:21:26 **** Incremental Build of configuration Debug for project Ejemplo13_I2C_PCF8 ****
+17:12:22 **** Incremental Build of configuration Debug for project Ejemplo14_I2C_LCD ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:122:68: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
-  122 |                           HAL_I2C_Master_Transmit(&hi2c1, ADD_DAC, &dato_send, 2, 100);
-      |                                                                    ^~~~~~~~~~
-      |                                                                    |
-      |                                                                    uint8_t (*)[2] {aka unsigned char (*)[2]}
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:566:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[2]' {aka 'unsigned char (*)[2]'}
-  566 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-      |                                                                                         ~~~~~~~~~^~~~~
-../Core/Src/main.c:98:21: warning: unused variable 'k' [-Wunused-variable]
-   98 |   uint8_t i= 0,j= 0,k = 0;
-      |                     ^
-../Core/Src/main.c:98:16: warning: unused variable 'j' [-Wunused-variable]
-   98 |   uint8_t i= 0,j= 0,k = 0;
-      |                ^
-../Core/Src/main.c:98:11: warning: unused variable 'i' [-Wunused-variable]
-   98 |   uint8_t i= 0,j= 0,k = 0;
-      |           ^
-arm-none-eabi-gcc -o "Ejemplo13_I2C_PCF8.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo13_I2C_PCF8\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo13_I2C_PCF8.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo13_I2C_PCF8.elf
+arm-none-eabi-gcc "../Core/Src/LCD.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/LCD.d" -MT"Core/Src/LCD.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/LCD.o"
+arm-none-eabi-gcc -o "Ejemplo14_I2C_LCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo14_I2C_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo14_I2C_LCD.elf
  
-arm-none-eabi-size   Ejemplo13_I2C_PCF8.elf 
-arm-none-eabi-objdump -h -S  Ejemplo13_I2C_PCF8.elf  > "Ejemplo13_I2C_PCF8.list"
+arm-none-eabi-size   Ejemplo14_I2C_LCD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo14_I2C_LCD.elf  > "Ejemplo14_I2C_LCD.list"
    text	   data	    bss	    dec	    hex	filename
-   9180	     20	   1652	  10852	   2a64	Ejemplo13_I2C_PCF8.elf
-arm-none-eabi-objcopy  -O ihex  Ejemplo13_I2C_PCF8.elf  "Ejemplo13_I2C_PCF8.hex"
+  11280	    100	   1988	  13368	   3438	Ejemplo14_I2C_LCD.elf
+arm-none-eabi-objcopy  -O ihex  Ejemplo14_I2C_LCD.elf  "Ejemplo14_I2C_LCD.hex"
 Finished building: default.size.stdout
  
-Finished building: Ejemplo13_I2C_PCF8.list
-Finished building: Ejemplo13_I2C_PCF8.hex
+Finished building: Ejemplo14_I2C_LCD.list
+Finished building: Ejemplo14_I2C_LCD.hex
  
+ 
+17:12:48 **** Incremental Build of configuration Debug for project Ejemplo14_I2C_LCD ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo14_I2C_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11280	    100	   1988	  13368	   3438	Ejemplo14_I2C_LCD.elf
+Finished building: default.size.stdout
  

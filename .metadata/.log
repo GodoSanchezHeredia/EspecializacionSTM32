@@ -610,3 +610,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\DELL\Do
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-10-21 15:27:33.043
 !MESSAGE Indexed 'Ejemplo13_I2C_PCF8' (19 sources, 81 headers) in 6.97 sec: 4,234 declarations; 17,738 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-21 16:36:46.771
+!MESSAGE Indexed 'Ejemplo14_I2C_LCD' (19 sources, 81 headers) in 3.85 sec: 4,234 declarations; 17,738 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)

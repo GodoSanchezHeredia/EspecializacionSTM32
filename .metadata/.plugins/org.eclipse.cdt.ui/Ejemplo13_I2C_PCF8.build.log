@@ -1,4 +1,4 @@
-16:21:26 **** Incremental Build of configuration Debug for project Ejemplo13_I2C_PCF8 ****
+16:37:35 **** Incremental Build of configuration Debug for project Ejemplo13_I2C_PCF8 ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
@@ -32,11 +32,11 @@ arm-none-eabi-objdump -h -S  Ejemplo13_I2C_PCF8.elf  > "Ejemplo13_I2C_PCF8.list"
    9180	     20	   1652	  10852	   2a64	Ejemplo13_I2C_PCF8.elf
 arm-none-eabi-objcopy  -O ihex  Ejemplo13_I2C_PCF8.elf  "Ejemplo13_I2C_PCF8.hex"
 Finished building: default.size.stdout
- 
 Finished building: Ejemplo13_I2C_PCF8.list
+ 
 Finished building: Ejemplo13_I2C_PCF8.hex
  
  
 
-16:21:31 Build Finished. 0 errors, 4 warnings. (took 4s.960ms)
+16:37:46 Build Finished. 0 errors, 4 warnings. (took 11s.519ms)
 

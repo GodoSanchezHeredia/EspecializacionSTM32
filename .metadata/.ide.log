@@ -1070,3 +1070,430 @@
 2023-10-21 16:21:34,307 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
 2023-10-21 16:21:34,308 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
 2023-10-21 16:21:34,308 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:25:39,587 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:25:39,588 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:25:39,589 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:25:39,589 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:25:39,590 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:29:10,889 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:29:10,890 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:29:10,891 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:29:10,892 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:29:10,892 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:35:12,354 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-21 16:35:12,532 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-21 16:35:12,534 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-21 16:35:12,535 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-21 16:35:12,538 [INFO] FinderPluginLoader:108 - Found C:\Users\DELL\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-AI\8.1.0\CubeMX\plugins\ip\ai.8.1.0.jar
+2023-10-21 16:35:12,539 [INFO] FinderPluginLoader:118 - Loading ai.8.1.0
+2023-10-21 16:35:12,563 [INFO] McuExtendedFiltersManager:95 - Add MCU extended filter: Artificial Intelligence
+2023-10-21 16:35:13,883 [INFO] AInterface:109 - AInterface using toolDir: C:/Users/DELL/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows
+2023-10-21 16:35:15,442 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-21 16:35:15,445 [INFO] DetailPanel:341 - Set advertising image to C:/Users/DELL/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-21 16:35:52,361 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-21 16:35:52,361 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-21 16:35:52,603 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-10-21 16:35:52,604 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-10-21 16:35:52,684 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-10-21 16:35:52,684 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-10-21 16:35:52,684 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-10-21 16:35:52,686 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-10-21 16:35:52,696 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2023-10-21 16:35:52,942 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-10-21 16:35:52,947 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 681073376 Bytes (1073741824)
+2023-10-21 16:35:52,948 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-10-21 16:35:52,948 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-10-21 16:35:52,948 [INFO] OpenFileManager:308 - Change cursor
+2023-10-21 16:35:53,018 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-10-21 16:35:53,028 [INFO] Mcu:1946 - Initializing MCU STM32F401RETx STM32F401RETx STM32F401RET6
+2023-10-21 16:36:03,845 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-21 16:36:04,335 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2023-10-21 16:36:04,338 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2023-10-21 16:36:04,339 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2023-10-21 16:36:04,864 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-10-21 16:36:04,867 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-10-21 16:36:04,868 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-10-21 16:36:04,868 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-10-21 16:36:04,868 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,901 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,902 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:04,903 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-21 16:36:05,340 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-10-21 16:36:07,778 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-10-21 16:36:09,841 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 860458240 Bytes (1073741824)
+2023-10-21 16:36:09,868 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-10-21 16:36:09,869 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.3
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-10-21 16:36:09,870 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-10-21 16:36:09,871 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-10-21 16:36:09,872 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-10-21 16:36:09,873 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2023-10-21 16:36:09,873 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-10-21 16:36:09,873 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2023-10-21 16:36:09,873 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-10-21 16:36:09,873 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-10-21 16:36:09,874 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-10-21 16:36:09,874 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2023-10-21 16:36:09,874 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-10-21 16:36:09,874 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-10-21 16:36:09,874 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.1
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-10-21 16:36:09,875 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-10-21 16:36:09,876 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-10-21 16:36:09,877 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-10-21 16:36:10,811 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-10-21 16:36:10,812 [INFO] PinOutPanel:1499 - setPackage(STM32F401RETx,LQFP64)
+2023-10-21 16:36:14,364 [INFO] UtilMem:75 - Before build in PCC Used Memory: 645738184 Bytes (1073741824)
+2023-10-21 16:36:14,884 [INFO] UtilMem:75 - After build in PCC Used Memory: 689256136 Bytes (1073741824)
+2023-10-21 16:36:14,958 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,958 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,958 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,958 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,958 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,959 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,959 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,959 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,960 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,960 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,960 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,960 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,963 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,963 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,964 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,964 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,965 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,966 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,966 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,967 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,967 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,968 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,968 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,969 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,969 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,970 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,971 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,971 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,973 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,973 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,974 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,975 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,976 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,977 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,978 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-21 16:36:14,984 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-10-21 16:36:15,041 [INFO] CADModel:165 - CPN selected for project levelSTM32F401RET6
+2023-10-21 16:36:15,041 [INFO] CADModel:114 - Register for checkConnection events
+2023-10-21 16:36:15,097 [INFO] OpenFileManager:328 - Restore cursor
+2023-10-21 16:36:18,486 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 763705032 Bytes (1073741824)
+2023-10-21 16:36:18,665 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 781004488 Bytes (1073741824)
+2023-10-21 16:36:19,230 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-21 16:36:19,231 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-21 16:36:19,235 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-21 16:36:19,642 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp_save
+2023-10-21 16:36:20,087 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp
+2023-10-21 16:36:20,136 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c_save
+2023-10-21 16:36:20,831 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c
+2023-10-21 16:36:20,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h_save
+2023-10-21 16:36:21,101 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h
+2023-10-21 16:36:21,198 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-21 16:36:21,506 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c
+2023-10-21 16:36:21,544 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp_save
+2023-10-21 16:36:21,744 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp
+2023-10-21 16:36:21,794 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-21 16:36:22,020 [INFO] CodeEngine:335 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-21 16:36:22,108 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h_save
+2023-10-21 16:36:22,440 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h
+2023-10-21 16:36:22,453 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c_save
+2023-10-21 16:36:22,812 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c
+2023-10-21 16:36:24,622 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:24,623 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:24,624 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:24,624 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:24,625 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:25,001 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 527mS.
+2023-10-21 16:36:25,019 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-21 16:36:25,954 [INFO] ConfigFileManager:1457 - The Die is : DIE433
+2023-10-21 16:36:25,959 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-10-21 16:36:25,970 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-10-21 16:36:25,979 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-10-21 16:36:25,991 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-10-21 16:36:26,008 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-10-21 16:36:26,020 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-10-21 16:36:44,313 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 19294mS.
+2023-10-21 16:36:44,317 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 3mS.
+2023-10-21 16:36:44,578 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-21 16:36:47,617 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,618 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,619 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,620 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,621 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,863 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,863 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,864 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,865 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,865 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,866 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,867 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,868 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,868 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,869 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,870 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,871 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,871 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,871 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,872 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:36:47,872 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-21 16:36:47,875 [INFO] ApiDb:448 - Save user favorites file C:\Users\DELL/.stm32cubeide/favorites.mcus.txt: 2 item(s)
+2023-10-21 16:36:47,876 [INFO] ApiDb:452 - User favorites MCUs=[STM32F401RET6, STM32WLE5CCU6]
+2023-10-21 16:37:51,554 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:37:51,555 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:37:51,556 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:37:51,557 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:37:51,557 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:39:18,690 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,690 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,724 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,725 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,725 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,726 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,846 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,846 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,850 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:18,850 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:28,575 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 928768368 Bytes (1073741824)
+2023-10-21 16:39:29,721 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 562349544 Bytes (1073741824)
+2023-10-21 16:39:30,055 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 583867768 Bytes (1073741824)
+2023-10-21 16:39:30,572 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-21 16:39:30,572 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-21 16:39:30,572 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-21 16:39:30,572 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-21 16:39:30,572 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-21 16:39:30,574 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-21 16:39:30,576 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:30,576 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:39:30,942 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp_save
+2023-10-21 16:39:30,982 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:39:30,983 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:39:30,983 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:39:30,983 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:39:30,984 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:39:31,187 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp
+2023-10-21 16:39:31,263 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\gpio.tmp_save
+2023-10-21 16:39:31,474 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\gpio.tmp
+2023-10-21 16:39:31,580 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c_save
+2023-10-21 16:39:31,841 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c
+2023-10-21 16:39:31,859 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h_save
+2023-10-21 16:39:32,056 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h
+2023-10-21 16:39:32,090 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-21 16:39:32,787 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c
+2023-10-21 16:39:32,880 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp_save
+2023-10-21 16:39:33,375 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp
+2023-10-21 16:39:33,413 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-21 16:39:33,885 [INFO] CodeEngine:335 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-21 16:39:34,219 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h_save
+2023-10-21 16:39:34,826 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h
+2023-10-21 16:39:34,849 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c_save
+2023-10-21 16:39:35,636 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c
+2023-10-21 16:39:40,487 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 1233mS.
+2023-10-21 16:39:40,500 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-21 16:39:41,300 [INFO] ConfigFileManager:1457 - The Die is : DIE433
+2023-10-21 16:39:46,339 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 5839mS.
+2023-10-21 16:39:46,344 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 4mS.
+2023-10-21 16:39:46,351 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-21 16:40:32,294 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 663821952 Bytes (1073741824)
+2023-10-21 16:40:32,844 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-21 16:40:32,844 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-21 16:40:32,844 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-21 16:40:32,844 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-21 16:40:32,845 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-21 16:40:32,847 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-21 16:40:32,848 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:40:32,848 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:40:33,243 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp_save
+2023-10-21 16:40:33,469 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp
+2023-10-21 16:40:33,537 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\gpio.tmp_save
+2023-10-21 16:40:33,905 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\gpio.tmp
+2023-10-21 16:40:34,015 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c_save
+2023-10-21 16:40:34,263 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c
+2023-10-21 16:40:34,281 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h_save
+2023-10-21 16:40:34,512 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h
+2023-10-21 16:40:34,548 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-21 16:40:34,902 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c
+2023-10-21 16:40:34,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp_save
+2023-10-21 16:40:35,153 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp
+2023-10-21 16:40:35,195 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-21 16:40:35,449 [INFO] CodeEngine:335 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-21 16:40:35,536 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h_save
+2023-10-21 16:40:35,782 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h
+2023-10-21 16:40:35,801 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c_save
+2023-10-21 16:40:36,131 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c
+2023-10-21 16:40:38,043 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 663mS.
+2023-10-21 16:40:38,056 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-21 16:40:39,053 [INFO] ConfigFileManager:1457 - The Die is : DIE433
+2023-10-21 16:40:42,292 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 4236mS.
+2023-10-21 16:40:42,293 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-21 16:40:42,301 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-21 16:40:56,573 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 831989112 Bytes (1073741824)
+2023-10-21 16:40:57,598 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 852434296 Bytes (1073741824)
+2023-10-21 16:40:57,984 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 770358608 Bytes (1073741824)
+2023-10-21 16:40:58,359 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:40:58,360 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:40:58,360 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:40:58,361 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:40:58,361 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:40:58,579 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-21 16:40:58,579 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-21 16:40:58,579 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-21 16:40:58,579 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-21 16:40:58,580 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-21 16:40:58,582 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-21 16:40:58,584 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-21 16:40:58,584 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-21 16:40:58,993 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp_save
+2023-10-21 16:40:59,233 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\license.tmp
+2023-10-21 16:40:59,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\gpio.c_save
+2023-10-21 16:40:59,500 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\gpio.c
+2023-10-21 16:40:59,514 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\gpio.h_save
+2023-10-21 16:40:59,746 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\gpio.h
+2023-10-21 16:40:59,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\i2c.c_save
+2023-10-21 16:41:00,154 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\i2c.c
+2023-10-21 16:41:00,169 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\i2c.h_save
+2023-10-21 16:41:00,435 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\i2c.h
+2023-10-21 16:41:00,469 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c_save
+2023-10-21 16:41:00,706 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_it.c
+2023-10-21 16:41:00,724 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h_save
+2023-10-21 16:41:01,037 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_it.h
+2023-10-21 16:41:01,075 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-21 16:41:01,415 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\stm32f4xx_hal_msp.c
+2023-10-21 16:41:01,430 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp_save
+2023-10-21 16:41:01,689 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\MXTmpFiles\system.tmp
+2023-10-21 16:41:01,721 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-21 16:41:01,938 [INFO] CodeEngine:335 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-21 16:41:02,004 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h_save
+2023-10-21 16:41:02,198 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Inc\main.h
+2023-10-21 16:41:02,215 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c_save
+2023-10-21 16:41:02,433 [INFO] CodeEngine:279 - Generated code: C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\Core\Src\main.c
+2023-10-21 16:41:04,170 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 654mS.
+2023-10-21 16:41:04,182 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-21 16:41:05,004 [INFO] ConfigFileManager:1457 - The Die is : DIE433
+2023-10-21 16:41:09,210 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 5028mS.
+2023-10-21 16:41:09,212 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-21 16:41:09,220 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-21 16:55:52,370 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:55:52,372 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:55:52,372 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:55:52,373 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:55:52,374 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:59:28,180 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:59:28,181 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:59:28,182 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:59:28,183 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 16:59:28,183 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:03:38,191 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:03:38,192 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:03:38,192 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:03:38,193 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:03:38,194 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:05:09,395 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:05:09,396 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:05:09,397 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:05:09,397 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:05:09,398 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:09:41,525 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:09:41,526 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:09:41,527 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:09:41,527 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:09:41,528 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:39,757 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:39,758 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:39,759 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:39,759 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:39,761 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:52,612 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:52,613 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:52,614 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:52,615 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:12:52,616 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:17:02,385 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:17:02,386 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:17:02,387 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:17:02,388 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-10-21 17:17:02,389 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
