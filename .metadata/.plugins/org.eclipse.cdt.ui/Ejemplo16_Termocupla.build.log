@@ -1,0 +1,10 @@
+17:46:21 **** Incremental Build of configuration Debug for project Ejemplo16_Termocupla ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo16_Termocupla.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33532	    476	   2076	  36084	   8cf4	Ejemplo16_Termocupla.elf
+Finished building: default.size.stdout
+ 
+
+17:46:22 Build Finished. 0 errors, 0 warnings. (took 1s.305ms)
+
