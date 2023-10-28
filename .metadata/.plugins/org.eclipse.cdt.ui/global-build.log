@@ -1,41 +1,59 @@
-17:43:58 **** Incremental Build of configuration Debug for project Ejemplo16_Termocupla ****
+17:17:51 **** Incremental Build of configuration Debug for project Ejemplo17_ILI9341 ****
 make -j4 all 
-arm-none-eabi-gcc -o "Ejemplo16_Termocupla.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo16_Termocupla\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo16_Termocupla.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo16_Termocupla.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:141:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  141 |         sprintf(Buffer,"Contador en %d",var);
+      |         ^~~~~~~
+../Core/Src/main.c:26:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   25 | #include "ILI9341_GFX.h"
+  +++ |+#include <stdio.h>
+   26 | /* USER CODE END Includes */
+../Core/Src/main.c:141:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  141 |         sprintf(Buffer,"Contador en %d",var);
+      |         ^~~~~~~
+../Core/Src/main.c:141:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "Ejemplo17_ILI9341.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo17_ILI9341\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo17_ILI9341.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo17_ILI9341.elf
  
-arm-none-eabi-size   Ejemplo16_Termocupla.elf 
-arm-none-eabi-objdump -h -S  Ejemplo16_Termocupla.elf  > "Ejemplo16_Termocupla.list"
+arm-none-eabi-size   Ejemplo17_ILI9341.elf 
+arm-none-eabi-objdump -h -S  Ejemplo17_ILI9341.elf  > "Ejemplo17_ILI9341.list"
    text	   data	    bss	    dec	    hex	filename
-  33532	    476	   2076	  36084	   8cf4	Ejemplo16_Termocupla.elf
+  23776	    104	   2088	  25968	   6570	Ejemplo17_ILI9341.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo16_Termocupla.list
+Finished building: Ejemplo17_ILI9341.list
  
-17:44:05 **** Incremental Build of configuration Debug for project Ejemplo16_Termocupla ****
+17:18:25 **** Incremental Build of configuration Debug for project Ejemplo17_ILI9341 ****
 make -j4 all 
-arm-none-eabi-size   Ejemplo16_Termocupla.elf 
+arm-none-eabi-size   Ejemplo17_ILI9341.elf 
    text	   data	    bss	    dec	    hex	filename
-  33532	    476	   2076	  36084	   8cf4	Ejemplo16_Termocupla.elf
+  23776	    104	   2088	  25968	   6570	Ejemplo17_ILI9341.elf
 Finished building: default.size.stdout
  
-17:45:06 **** Incremental Build of configuration Debug for project Ejemplo16_Termocupla ****
+17:19:32 **** Incremental Build of configuration Debug for project Ejemplo17_ILI9341 ****
 make -j4 all 
-arm-none-eabi-size   Ejemplo16_Termocupla.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:141:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  141 |         sprintf(Buffer,"Contador en %d",var);
+      |         ^~~~~~~
+../Core/Src/main.c:26:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   25 | #include "ILI9341_GFX.h"
+  +++ |+#include <stdio.h>
+   26 | /* USER CODE END Includes */
+../Core/Src/main.c:141:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  141 |         sprintf(Buffer,"Contador en %d",var);
+      |         ^~~~~~~
+../Core/Src/main.c:141:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "Ejemplo17_ILI9341.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo17_ILI9341\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo17_ILI9341.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo17_ILI9341.elf
+ 
+arm-none-eabi-size   Ejemplo17_ILI9341.elf 
+arm-none-eabi-objdump -h -S  Ejemplo17_ILI9341.elf  > "Ejemplo17_ILI9341.list"
    text	   data	    bss	    dec	    hex	filename
-  33532	    476	   2076	  36084	   8cf4	Ejemplo16_Termocupla.elf
+  23776	    104	   2088	  25968	   6570	Ejemplo17_ILI9341.elf
 Finished building: default.size.stdout
  
-17:45:56 **** Incremental Build of configuration Debug for project Ejemplo16_Termocupla ****
-make -j4 all 
-arm-none-eabi-size   Ejemplo16_Termocupla.elf 
-   text	   data	    bss	    dec	    hex	filename
-  33532	    476	   2076	  36084	   8cf4	Ejemplo16_Termocupla.elf
-Finished building: default.size.stdout
- 
-17:46:21 **** Incremental Build of configuration Debug for project Ejemplo16_Termocupla ****
-make -j4 all 
-arm-none-eabi-size   Ejemplo16_Termocupla.elf 
-   text	   data	    bss	    dec	    hex	filename
-  33532	    476	   2076	  36084	   8cf4	Ejemplo16_Termocupla.elf
-Finished building: default.size.stdout
+Finished building: Ejemplo17_ILI9341.list
  

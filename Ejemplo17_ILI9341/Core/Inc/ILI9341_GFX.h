@@ -1,7 +1,7 @@
 #ifndef ILI9341_GFX_H
 #define ILI9341_GFX_H
 
-#include "stm32f1xx_hal.h"
+#include "stm32f4xx_hal.h"
 #include "fonts.h"
 
 #define HORIZONTAL_IMAGE	0

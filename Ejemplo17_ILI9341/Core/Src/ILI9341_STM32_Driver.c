@@ -16,7 +16,7 @@ static void ILI9341_SPI_Tx(uint8_t data)
 {
 	while(!__HAL_SPI_GET_FLAG(HSPI_INSTANCE, SPI_FLAG_TXE));
 	HAL_SPI_Transmit_DMA(HSPI_INSTANCE, &data, 1);
-	//HAL_SPI_Transmit(HSPI_INSTANCE, &data, 1, 10);
+//HAL_SPI_Transmit(HSPI_INSTANCE, &data, 1, 10);
 }
 
 static void ILI9341_SPI_TxBuffer(uint8_t *buffer, uint16_t len)

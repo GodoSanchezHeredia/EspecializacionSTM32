@@ -21,7 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "ILI9341_STM32_Driver.h"
+#include "ILI9341_GFX.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -92,6 +93,77 @@ int main(void)
   MX_DMA_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
+ILI9341_Init();
+ILI9341_FillScreen(PINK);
+ILI9341_SetRotation(SCREEN_HORIZONTAL_2);
+ILI9341_DrawText("CURSO STM32", FONT4, 80, 100, BLACK, PINK);
+HAL_Delay(500);
+
+ILI9341_FillScreen(BLACK  );
+HAL_Delay(1000);
+ILI9341_FillScreen(NAVY );
+HAL_Delay(1000);
+ILI9341_FillScreen( DARKGREEN  );
+HAL_Delay(1000);
+ILI9341_FillScreen( DARKCYAN    	);
+HAL_Delay(1000);
+ILI9341_FillScreen( MAROON   );
+HAL_Delay(1000);
+ILI9341_FillScreen(PURPLE      		);
+HAL_Delay(1000);
+ILI9341_FillScreen( OLIVE       		);
+HAL_Delay(1000);
+ILI9341_FillScreen( LIGHTGREY);
+HAL_Delay(1000);
+ILI9341_FillScreen( DARKGREY  );
+HAL_Delay(1000);
+ILI9341_FillScreen( BLUE    );
+HAL_Delay(1000);
+ILI9341_FillScreen( GREEN   );
+HAL_Delay(1000);
+ILI9341_FillScreen( CYAN    );
+HAL_Delay(1000);
+ILI9341_FillScreen( RED     );
+HAL_Delay(1000);
+ILI9341_FillScreen( MAGENTA  );
+HAL_Delay(1000);
+ILI9341_FillScreen( YELLOW   );
+HAL_Delay(1000);
+ILI9341_FillScreen( WHITE    );
+HAL_Delay(1000);
+ILI9341_FillScreen(GREENYELLOW 	);
+HAL_Delay(1000);
+ILI9341_FillScreen( PINK  );
+HAL_Delay(1000);
+ILI9341_FillScreen( WHITE  );
+char Buffer[35];
+for (uint8_t var = 0; var < 10; ++var) {
+	sprintf(Buffer,"Contador en %d",var);
+	ILI9341_DrawText(Buffer, FONT3, 10, 10, BLACK, WHITE);
+	ILI9341_DrawText(Buffer, FONT3, 10, 30, BLUE, WHITE);
+	ILI9341_DrawText(Buffer, FONT3, 10, 50, RED, WHITE);
+	ILI9341_DrawText(Buffer, FONT3, 10, 70, GREEN, WHITE);
+	ILI9341_DrawText(Buffer, FONT3, 10, 90, MAROON, WHITE);
+	ILI9341_DrawText(Buffer, FONT3, 10, 110, WHITE, BLACK);
+	ILI9341_DrawText(Buffer, FONT3, 10, 130, RED, BLACK);
+HAL_Delay(500);
+}
+HAL_Delay(1000);
+ILI9341_FillScreen( WHITE  );
+ILI9341_DrawVLine(160, 40, 200, RED);
+HAL_Delay(1000);
+
+ILI9341_FillScreen( WHITE  );
+ILI9341_DrawHLine(50, 120, 200, RED);
+HAL_Delay(1000);
+
+ILI9341_FillScreen( WHITE  );
+ILI9341_DrawHollowCircle(160, 120, 80, MAROON);
+HAL_Delay(1000);
+
+ILI9341_FillScreen( WHITE  );
+ILI9341_DrawFilledCircle(160, 120, 50, RED);
+HAL_Delay(1000);
 
   /* USER CODE END 2 */
 

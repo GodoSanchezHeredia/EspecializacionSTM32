@@ -1,7 +1,7 @@
 #ifndef ILI9341_STM32_DRIVER_H
 #define ILI9341_STM32_DRIVER_H
 
-#include "stm32f1xx_hal.h"
+#include "stm32f4xx_hal.h"
 
 extern SPI_HandleTypeDef hspi1;
 
@@ -11,11 +11,11 @@ extern SPI_HandleTypeDef hspi1;
 /* PIN Configuration */
 #define HSPI_INSTANCE			&hspi1
 #define LCD_CS_PORT				GPIOB
-#define LCD_CS_PIN				GPIO_PIN_10
-#define LCD_DC_PORT				GPIOB
-#define LCD_DC_PIN				GPIO_PIN_0
-#define	LCD_RST_PORT			GPIOB
-#define	LCD_RST_PIN				GPIO_PIN_1
+#define LCD_CS_PIN				GPIO_PIN_6
+#define LCD_DC_PORT				GPIOC
+#define LCD_DC_PIN				GPIO_PIN_7
+#define	LCD_RST_PORT			GPIOA
+#define	LCD_RST_PIN				GPIO_PIN_9
 
 #define BURST_MAX_SIZE 			500
 #define BLACK      				0x0000
