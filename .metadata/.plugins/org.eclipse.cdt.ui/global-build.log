@@ -1,59 +1,378 @@
-17:17:51 **** Incremental Build of configuration Debug for project Ejemplo17_ILI9341 ****
+17:42:49 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29952	    136	   3272	  33360	   8250	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+17:42:59 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29952	    136	   3272	  33360	   8250	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+17:45:07 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29944	    136	   3272	  33352	   8248	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+17:50:33 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29956	    136	   3272	  33364	   8254	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+17:51:27 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29956	    136	   3272	  33364	   8254	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+17:51:58 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29956	    136	   3272	  33364	   8254	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+17:54:11 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29948	    136	   3272	  33356	   824c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+17:56:16 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29948	    136	   3272	  33356	   824c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+18:10:15 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:141:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
-  141 |         sprintf(Buffer,"Contador en %d",var);
-      |         ^~~~~~~
-../Core/Src/main.c:26:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-   25 | #include "ILI9341_GFX.h"
-  +++ |+#include <stdio.h>
-   26 | /* USER CODE END Includes */
-../Core/Src/main.c:141:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
-  141 |         sprintf(Buffer,"Contador en %d",var);
-      |         ^~~~~~~
-../Core/Src/main.c:141:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-arm-none-eabi-gcc -o "Ejemplo17_ILI9341.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo17_ILI9341\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo17_ILI9341.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo17_ILI9341.elf
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  145 |         f_write(&fs, "Hola archivo", sizeof("Hola archivo"), &file);
+      |                 ^~~
+      |                 |
+      |                 FATFS *
+In file included from ../FATFS/App/fatfs.h:26,
+                 from ../Core/Src/main.c:21:
+../Middlewares/Third_Party/FatFs/src/ff.h:245:23: note: expected 'FIL *' but argument is of type 'FATFS *'
+  245 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to the file */
+      |                  ~~~~~^~
+../Core/Src/main.c:145:62: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  145 |         f_write(&fs, "Hola archivo", sizeof("Hola archivo"), &file);
+      |                                                              ^~~~~
+      |                                                              |
+      |                                                              FIL *
+In file included from ../FATFS/App/fatfs.h:26,
+                 from ../Core/Src/main.c:21:
+../Middlewares/Third_Party/FatFs/src/ff.h:245:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'FIL *'
+  245 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to the file */
+      |                                                       ~~~~~~^~
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
  
-arm-none-eabi-size   Ejemplo17_ILI9341.elf 
-arm-none-eabi-objdump -h -S  Ejemplo17_ILI9341.elf  > "Ejemplo17_ILI9341.list"
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
    text	   data	    bss	    dec	    hex	filename
-  23776	    104	   2088	  25968	   6570	Ejemplo17_ILI9341.elf
+  29628	    136	   3272	  33036	   810c	Ejemplo18_SD_CARD.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo17_ILI9341.list
+Finished building: Ejemplo18_SD_CARD.list
  
-17:18:25 **** Incremental Build of configuration Debug for project Ejemplo17_ILI9341 ****
+18:11:22 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
 make -j4 all 
-arm-none-eabi-size   Ejemplo17_ILI9341.elf 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
    text	   data	    bss	    dec	    hex	filename
-  23776	    104	   2088	  25968	   6570	Ejemplo17_ILI9341.elf
+  29628	    136	   3272	  33036	   810c	Ejemplo18_SD_CARD.elf
 Finished building: default.size.stdout
  
-17:19:32 **** Incremental Build of configuration Debug for project Ejemplo17_ILI9341 ****
+18:13:11 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:141:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
-  141 |         sprintf(Buffer,"Contador en %d",var);
-      |         ^~~~~~~
-../Core/Src/main.c:26:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-   25 | #include "ILI9341_GFX.h"
-  +++ |+#include <stdio.h>
-   26 | /* USER CODE END Includes */
-../Core/Src/main.c:141:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
-  141 |         sprintf(Buffer,"Contador en %d",var);
-      |         ^~~~~~~
-../Core/Src/main.c:141:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-arm-none-eabi-gcc -o "Ejemplo17_ILI9341.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo17_ILI9341\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo17_ILI9341.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo17_ILI9341.elf
+../Core/Src/main.c:145:17: warning: passing argument 1 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  145 |         f_write(&fs, "Hola archivo", sizeof("Hola archivo"), &file);
+      |                 ^~~
+      |                 |
+      |                 FATFS *
+In file included from ../FATFS/App/fatfs.h:26,
+                 from ../Core/Src/main.c:21:
+../Middlewares/Third_Party/FatFs/src/ff.h:245:23: note: expected 'FIL *' but argument is of type 'FATFS *'
+  245 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to the file */
+      |                  ~~~~~^~
+../Core/Src/main.c:145:62: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  145 |         f_write(&fs, "Hola archivo", sizeof("Hola archivo"), &file);
+      |                                                              ^~~~~
+      |                                                              |
+      |                                                              FIL *
+In file included from ../FATFS/App/fatfs.h:26,
+                 from ../Core/Src/main.c:21:
+../Middlewares/Third_Party/FatFs/src/ff.h:245:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'FIL *'
+  245 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to the file */
+      |                                                       ~~~~~~^~
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
  
-arm-none-eabi-size   Ejemplo17_ILI9341.elf 
-arm-none-eabi-objdump -h -S  Ejemplo17_ILI9341.elf  > "Ejemplo17_ILI9341.list"
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
    text	   data	    bss	    dec	    hex	filename
-  23776	    104	   2088	  25968	   6570	Ejemplo17_ILI9341.elf
+  29628	    136	   3272	  33036	   810c	Ejemplo18_SD_CARD.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo17_ILI9341.list
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:14:14 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  28748	    136	   3272	  32156	   7d9c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:15:27 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29900	    136	   3272	  33308	   821c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:15:47 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29900	    136	   3272	  33308	   821c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:17:02 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  28748	    136	   3272	  32156	   7d9c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:18:22 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29944	    136	   3272	  33352	   8248	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:25:19 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29640	    136	   3280	  33056	   8120	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:29:12 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29696	    136	   3280	  33112	   8158	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:32:13 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  29696	    136	   3280	  33112	   8158	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:41:00 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  30472	    136	   3280	  33888	   8460	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:41:41 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30472	    136	   3280	  33888	   8460	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+18:43:16 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  30472	    136	   3280	  33888	   8460	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:48:08 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401retx.d" -MT"Core/Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401retx.o" "../Core/Startup/startup_stm32f401retx.s"
+../Core/Startup/startup_stm32f401retx.s: Assembler messages:
+../Core/Startup/startup_stm32f401retx.s:61: Error: junk at end of line, first unrecognized character is `}'
+make: *** [Core/Startup/subdir.mk:19: Core/Startup/startup_stm32f401retx.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:48:21 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401retx.d" -MT"Core/Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401retx.o" "../Core/Startup/startup_stm32f401retx.s"
+../Core/Startup/startup_stm32f401retx.s: Assembler messages:
+../Core/Startup/startup_stm32f401retx.s:61: Error: junk at end of line, first unrecognized character is `}'
+make: *** [Core/Startup/subdir.mk:19: Core/Startup/startup_stm32f401retx.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:48:33 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401retx.d" -MT"Core/Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401retx.o" "../Core/Startup/startup_stm32f401retx.s"
+../Core/Startup/startup_stm32f401retx.s: Assembler messages:
+../Core/Startup/startup_stm32f401retx.s:61: Error: junk at end of line, first unrecognized character is `}'
+make: *** [Core/Startup/subdir.mk:19: Core/Startup/startup_stm32f401retx.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:48:48 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401retx.d" -MT"Core/Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401retx.o" "../Core/Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  30472	    136	   3280	  33888	   8460	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:49:51 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  30468	    136	   3584	  34188	   858c	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
+ 
+18:53:38 **** Incremental Build of configuration Debug for project Ejemplo18_SD_CARD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo18_SD_CARD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo18_SD_CARD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo18_SD_CARD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo18_SD_CARD.elf
+ 
+arm-none-eabi-size   Ejemplo18_SD_CARD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo18_SD_CARD.elf  > "Ejemplo18_SD_CARD.list"
+   text	   data	    bss	    dec	    hex	filename
+  31012	    136	   3584	  34732	   87ac	Ejemplo18_SD_CARD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo18_SD_CARD.list
  
