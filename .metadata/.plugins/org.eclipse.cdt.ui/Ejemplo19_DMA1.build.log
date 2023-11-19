@@ -1,0 +1,10 @@
+17:02:27 **** Incremental Build of configuration Debug for project Ejemplo19_DMA1 ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo19_DMA1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21016	    100	  10684	  31800	   7c38	Ejemplo19_DMA1.elf
+Finished building: default.size.stdout
+ 
+
+17:02:29 Build Finished. 0 errors, 0 warnings. (took 2s.73ms)
+

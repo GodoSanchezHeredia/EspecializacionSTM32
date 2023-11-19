@@ -442,7 +442,7 @@ void LCD_STM32_CMD(uint8_t a,uint8_t rs){
  80005a0:	f043 0304 	orr.w	r3, r3, #4
  80005a4:	b2db      	uxtb	r3, r3
  80005a6:	73fb      	strb	r3, [r7, #15]
-	dato |= 1<<3;
+	dato |= 1<<3;//backlight
  80005a8:	7bfb      	ldrb	r3, [r7, #15]
  80005aa:	f043 0308 	orr.w	r3, r3, #8
  80005ae:	b2db      	uxtb	r3, r3

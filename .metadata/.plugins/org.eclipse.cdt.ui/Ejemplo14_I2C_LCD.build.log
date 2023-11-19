@@ -1,10 +1,20 @@
-17:12:48 **** Incremental Build of configuration Debug for project Ejemplo14_I2C_LCD ****
+17:37:36 **** Build of configuration Debug for project Ejemplo14_I2C_LCD ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/LCD.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/LCD.d" -MT"Core/Src/LCD.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/LCD.o"
+arm-none-eabi-gcc -o "Ejemplo14_I2C_LCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo14_I2C_LCD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo14_I2C_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo14_I2C_LCD.elf
+ 
 arm-none-eabi-size   Ejemplo14_I2C_LCD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo14_I2C_LCD.elf  > "Ejemplo14_I2C_LCD.list"
    text	   data	    bss	    dec	    hex	filename
   11280	    100	   1988	  13368	   3438	Ejemplo14_I2C_LCD.elf
+arm-none-eabi-objcopy  -O ihex  Ejemplo14_I2C_LCD.elf  "Ejemplo14_I2C_LCD.hex"
 Finished building: default.size.stdout
+Finished building: Ejemplo14_I2C_LCD.list
+ 
+Finished building: Ejemplo14_I2C_LCD.hex
+ 
  
 
-17:12:50 Build Finished. 0 errors, 0 warnings. (took 1s.876ms)
+17:37:43 Build Finished. 0 errors, 0 warnings. (took 7s.108ms)
 

@@ -1,0 +1,6 @@
+../Core/Src/LCD.c:13:6:LCD_STM32_CMD	24	static
+../Core/Src/LCD.c:25:6:LCD_STM32_BUS	16	static
+../Core/Src/LCD.c:30:6:LCD_STM32_INIT	8	static
+../Core/Src/LCD.c:49:6:LCD_STM32_SET_CURSOR	24	static
+../Core/Src/LCD.c:78:6:LCD_STM32_PRINT_CHAR	24	static
+../Core/Src/LCD.c:88:6:LCD_STM32_PRINT_STRING	16	static
