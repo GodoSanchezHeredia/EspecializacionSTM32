@@ -1,0 +1,5 @@
+../Core/Src/freertos.c:72:6:vApplicationGetIdleTaskMemory	1
+../Core/Src/freertos.c:86:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:133:6:StartDefaultTask	1
+../Core/Src/freertos.c:152:6:vTarea1	1
+../Core/Src/freertos.c:171:6:vTarea2	1

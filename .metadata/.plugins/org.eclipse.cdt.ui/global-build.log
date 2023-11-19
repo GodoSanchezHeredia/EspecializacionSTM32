@@ -1,209 +1,49 @@
-18:37:54 **** Incremental Build of configuration Debug for project Ejemplo21_LP1 ****
+18:35:42 **** Incremental Build of configuration Debug for project Ejemplo24_RTOS ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'LowPOWER_SLEEP':
-../Core/Src/main.c:70:15: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-   70 |     MSG_Slepp = "Entrando al MODO SLEEP zzz en 5Segundos\n\r";
-      |               ^
-../Core/Src/main.c:71:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-   71 |     HAL_UART_Transmit(&huart2, MSG_Slepp, strlen(MSG_Slepp), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:81:15: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-   81 |     MSG_Slepp = "Despertando del Sleep Mode con el SMT32F4:D\n\r";
-      |               ^
-../Core/Src/main.c:82:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-   82 |     HAL_UART_Transmit(&huart2, MSG_Slepp, strlen(MSG_Slepp), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c: In function 'LowPOWER_STOP':
-../Core/Src/main.c:96:19: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-   96 |         MSG_Stop1 = "Entrando al MODO STOP zzz en 5Segundos\n\r";
-      |                   ^
-../Core/Src/main.c:97:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-   97 |     HAL_UART_Transmit(&huart2, MSG_Stop1, strlen(MSG_Stop1), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:107:15: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  107 |     MSG_Stop2 = "Despertando del Stop Mode con el SMT32F4:D\n\r";
-      |               ^
-../Core/Src/main.c:108:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  108 |     HAL_UART_Transmit(&huart2, MSG_Stop2, strlen(MSG_Stop2), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c: In function 'LowPOWER_StandBye':
-../Core/Src/main.c:123:25: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  123 |                 MSG_SB1 = "Despertando del StandBye Mode con el SMT32F4:D\n\r";
-      |                         ^
-../Core/Src/main.c:124:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  124 |                 HAL_UART_Transmit(&huart2, MSG_SB1, strlen(MSG_SB1), HAL_MAX_DELAY);
-      |                                                            ^~~~~~~
-      |                                                            |
-      |                                                            uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:135:17: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  135 |         MSG_SB2 = "Preparados para ir a StandBye Mode con el SMT32F4:D\n\r";
-      |                 ^
-../Core/Src/main.c:136:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  136 |         HAL_UART_Transmit(&huart2, MSG_SB2, strlen(MSG_SB2), HAL_MAX_DELAY);
-      |                                                    ^~~~~~~
-      |                                                    |
-      |                                                    uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:142:25: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  142 |                 MSG_SB3 = " StandBye Mode ON SMT32F4:D\n\r";
-      |                         ^
-../Core/Src/main.c:143:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  143 |                 HAL_UART_Transmit(&huart2, MSG_SB3, strlen(MSG_SB3), HAL_MAX_DELAY);
-      |                                                            ^~~~~~~
-      |                                                            |
-      |                                                            uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-arm-none-eabi-gcc -o "Ejemplo21_LP1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo21_LP1\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo21_LP1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo21_LP1.elf
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc -o "Ejemplo24_RTOS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo24_RTOS\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo24_RTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo24_RTOS.elf
  
-arm-none-eabi-size   Ejemplo21_LP1.elf 
-arm-none-eabi-objdump -h -S  Ejemplo21_LP1.elf  > "Ejemplo21_LP1.list"
+arm-none-eabi-size   Ejemplo24_RTOS.elf 
+arm-none-eabi-objdump -h -S  Ejemplo24_RTOS.elf  > "Ejemplo24_RTOS.list"
    text	   data	    bss	    dec	    hex	filename
-  11928	     20	   1652	  13600	   3520	Ejemplo21_LP1.elf
+  13096	     24	  17952	  31072	   7960	Ejemplo24_RTOS.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo21_LP1.list
+Finished building: Ejemplo24_RTOS.list
  
-18:41:07 **** Incremental Build of configuration Debug for project Ejemplo21_LP1 ****
+18:35:47 **** Incremental Build of configuration Debug for project Ejemplo24_RTOS ****
 make -j4 all 
-arm-none-eabi-size   Ejemplo21_LP1.elf 
+arm-none-eabi-size   Ejemplo24_RTOS.elf 
    text	   data	    bss	    dec	    hex	filename
-  11928	     20	   1652	  13600	   3520	Ejemplo21_LP1.elf
+  13096	     24	  17952	  31072	   7960	Ejemplo24_RTOS.elf
 Finished building: default.size.stdout
  
-18:44:18 **** Incremental Build of configuration Debug for project Ejemplo21_LP1 ****
+18:36:53 **** Incremental Build of configuration Debug for project Ejemplo24_RTOS ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'LowPOWER_SLEEP':
-../Core/Src/main.c:70:15: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-   70 |     MSG_Slepp = "Entrando al MODO SLEEP zzz en 5Segundos\n\r";
-      |               ^
-../Core/Src/main.c:71:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-   71 |     HAL_UART_Transmit(&huart2, MSG_Slepp, strlen(MSG_Slepp), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:81:15: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-   81 |     MSG_Slepp = "Despertando del Sleep Mode con el SMT32F4:D\n\r";
-      |               ^
-../Core/Src/main.c:82:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-   82 |     HAL_UART_Transmit(&huart2, MSG_Slepp, strlen(MSG_Slepp), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c: In function 'LowPOWER_STOP':
-../Core/Src/main.c:96:19: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-   96 |         MSG_Stop1 = "Entrando al MODO STOP zzz en 5Segundos\n\r";
-      |                   ^
-../Core/Src/main.c:97:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-   97 |     HAL_UART_Transmit(&huart2, MSG_Stop1, strlen(MSG_Stop1), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:107:15: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  107 |     MSG_Stop2 = "Despertando del Stop Mode con el SMT32F4:D\n\r";
-      |               ^
-../Core/Src/main.c:108:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  108 |     HAL_UART_Transmit(&huart2, MSG_Stop2, strlen(MSG_Stop2), HAL_MAX_DELAY);
-      |                                                  ^~~~~~~~~
-      |                                                  |
-      |                                                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c: In function 'LowPOWER_StandBye':
-../Core/Src/main.c:123:25: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  123 |                 MSG_SB1 = "Despertando del StandBye Mode con el SMT32F4:D\n\r";
-      |                         ^
-../Core/Src/main.c:124:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  124 |                 HAL_UART_Transmit(&huart2, MSG_SB1, strlen(MSG_SB1), HAL_MAX_DELAY);
-      |                                                            ^~~~~~~
-      |                                                            |
-      |                                                            uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:135:17: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  135 |         MSG_SB2 = "Preparados para ir a StandBye Mode con el SMT32F4:D\n\r";
-      |                 ^
-../Core/Src/main.c:136:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  136 |         HAL_UART_Transmit(&huart2, MSG_SB2, strlen(MSG_SB2), HAL_MAX_DELAY);
-      |                                                    ^~~~~~~
-      |                                                    |
-      |                                                    uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-../Core/Src/main.c:142:25: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
-  142 |                 MSG_SB3 = " StandBye Mode ON SMT32F4:D\n\r";
-      |                         ^
-../Core/Src/main.c:143:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
-  143 |                 HAL_UART_Transmit(&huart2, MSG_SB3, strlen(MSG_SB3), HAL_MAX_DELAY);
-      |                                                            ^~~~~~~
-      |                                                            |
-      |                                                            uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:26:
-C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   41 | size_t   strlen (const char *);
-      |                  ^~~~~~~~~~~~
-arm-none-eabi-gcc -o "Ejemplo21_LP1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo21_LP1\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo21_LP1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo21_LP1.elf
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc -o "Ejemplo24_RTOS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo24_RTOS\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo24_RTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo24_RTOS.elf
  
-arm-none-eabi-size   Ejemplo21_LP1.elf 
-arm-none-eabi-objdump -h -S  Ejemplo21_LP1.elf  > "Ejemplo21_LP1.list"
+arm-none-eabi-size   Ejemplo24_RTOS.elf 
+arm-none-eabi-objdump -h -S  Ejemplo24_RTOS.elf  > "Ejemplo24_RTOS.list"
    text	   data	    bss	    dec	    hex	filename
-  11940	     20	   1652	  13612	   352c	Ejemplo21_LP1.elf
+  13096	     24	  17952	  31072	   7960	Ejemplo24_RTOS.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo21_LP1.list
+Finished building: Ejemplo24_RTOS.list
+ 
+18:37:17 **** Incremental Build of configuration Debug for project Ejemplo24_RTOS ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo24_RTOS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13096	     24	  17952	  31072	   7960	Ejemplo24_RTOS.elf
+Finished building: default.size.stdout
+ 
+18:38:33 **** Incremental Build of configuration Debug for project Ejemplo24_RTOS ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo24_RTOS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13096	     24	  17952	  31072	   7960	Ejemplo24_RTOS.elf
+Finished building: default.size.stdout
  
