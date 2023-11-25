@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo14_I2C_LCD Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo17_ILI9341 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo20_DMA2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo19_DMA1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo_ExternInterr,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo21_LP1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo23_FSM Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo24_RTOS Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo9_ADC_ Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC\ Debug/activeLaunchTarget=null\:---
@@ -16,12 +16,17 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo18_SD_CARD\ Debug/active
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo19_DMA1\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_GPIO\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_GPIO\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_RTOS/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo20_DMA2\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo21_LP1\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo23_FSM\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo24_RTOS\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo2_FreeRTOS\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo4_Keypad\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo4_Keypad\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo8_UART\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo9_ADC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo9_ADC_\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo9_ADC_\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template\ Debug/activeLaunchTarget=null\:---

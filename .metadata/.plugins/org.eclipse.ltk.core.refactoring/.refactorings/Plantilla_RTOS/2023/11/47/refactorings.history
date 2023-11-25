@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Plantilla_RTOS/Plantilla_RTOS.ioc&apos; to &apos;Plantilla_RTOS&apos;" description="Rename resource &apos;Plantilla_RTOS.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Plantilla_RTOS.ioc" name="Plantilla_RTOS" stamp="1700904989983" updateReferences="true"/>
+</session>
