@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo9_ADC_ Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo26_TaskLeds Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo27_TaskLCD Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo28_TimerRtos Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC\ Debug/activeLaunchTarget=null\:---
@@ -21,6 +21,12 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo20_DMA2\ Debug/activeLau
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo21_LP1\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo23_FSM\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo24_RTOS\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo25_Task\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo25_Task\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo26_TaskLeds\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo26_TaskLeds\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo27_TaskLCD\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo28_TimerRtos\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo2_FreeRTOS\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo4_Keypad\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo4_Keypad\ Debug/activeLaunchTarget=null\:---

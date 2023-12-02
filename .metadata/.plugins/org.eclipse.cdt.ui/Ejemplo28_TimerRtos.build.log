@@ -1,0 +1,17 @@
+15:56:44 **** Incremental Build of configuration Debug for project Ejemplo28_TimerRtos ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo28_TimerRtos/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo28_TimerRtos/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo28_TimerRtos/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo28_TimerRtos/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo28_TimerRtos/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo28_TimerRtos.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo28_TimerRtos\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo28_TimerRtos.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo28_TimerRtos.elf
+ 
+arm-none-eabi-size   Ejemplo28_TimerRtos.elf 
+arm-none-eabi-objdump -h -S  Ejemplo28_TimerRtos.elf  > "Ejemplo28_TimerRtos.list"
+   text	   data	    bss	    dec	    hex	filename
+  30644	     28	  19156	  49828	   c2a4	Ejemplo28_TimerRtos.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo28_TimerRtos.list
+ 
+
+15:56:49 Build Finished. 0 errors, 0 warnings. (took 4s.736ms)
+

@@ -1,0 +1,36 @@
+21:39:05 **** Incremental Build of configuration Debug for project Ejemplo27_TaskLCD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo27_TaskLCD/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo27_TaskLCD/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo27_TaskLCD/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo27_TaskLCD/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo27_TaskLCD/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo27_TaskLCD/Middlewares" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'vTask_LCD':
+../Core/Src/main.c:215:33: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  215 |                         sprintf(str_value,"ADC->%04u",value);
+      |                                 ^~~~~~~~~
+      |                                 |
+      |                                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:33:
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/stdio.h:254:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  254 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+../Core/Src/main.c:217:48: warning: pointer targets in passing argument 1 of 'LCD_STM32_PRINT_STRING' differ in signedness [-Wpointer-sign]
+  217 |                         LCD_STM32_PRINT_STRING(str_value);
+      |                                                ^~~~~~~~~
+      |                                                |
+      |                                                uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:31:
+../Core/Inc/LCD.h:41:35: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | void LCD_STM32_PRINT_STRING(char *a);
+      |                             ~~~~~~^
+arm-none-eabi-gcc -o "Ejemplo27_TaskLCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo27_TaskLCD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo27_TaskLCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo27_TaskLCD.elf
+ 
+arm-none-eabi-size   Ejemplo27_TaskLCD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo27_TaskLCD.elf  > "Ejemplo27_TaskLCD.list"
+   text	   data	    bss	    dec	    hex	filename
+  32688	    108	  19580	  52376	   cc98	Ejemplo27_TaskLCD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo27_TaskLCD.list
+ 
+
+21:39:07 Build Finished. 0 errors, 2 warnings. (took 2s.766ms)
+

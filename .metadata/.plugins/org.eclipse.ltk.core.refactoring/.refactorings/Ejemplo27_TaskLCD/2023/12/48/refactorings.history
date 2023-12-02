@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ejemplo27_TaskLCD/Ejemplo26_TaskLeds.ioc&apos; to &apos;Ejemplo27_TaskLCD.ioc&apos;" description="Rename resource &apos;Ejemplo26_TaskLeds.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Ejemplo26_TaskLeds.ioc" name="Ejemplo27_TaskLCD.ioc" stamp="1701396523349" updateReferences="true"/>
+</session>
