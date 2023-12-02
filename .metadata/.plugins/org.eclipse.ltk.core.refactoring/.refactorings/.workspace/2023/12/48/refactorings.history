@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Ejemplo29_Queue/Debug/Ejemplo28_TimerRtos.elf&apos;" deleteContents="false" description="Delete resource &apos;Ejemplo29_Queue/Debug/Ejemplo28_TimerRtos.elf&apos;" element1="/Ejemplo29_Queue/Debug/Ejemplo28_TimerRtos.elf" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1701553025561"/>
+</session>

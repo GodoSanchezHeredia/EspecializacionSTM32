@@ -6210,3 +6210,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\DELL\Do
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-12-02 15:56:55.118
 !MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-02 16:07:34.273
+!MESSAGE Indexed 'Ejemplo29_Queue' (39 sources, 138 headers) in 7.5 sec: 13,057 declarations; 63,157 references; 2 unresolved inclusions; 151 syntax errors; 149 unresolved names (0.2%)
