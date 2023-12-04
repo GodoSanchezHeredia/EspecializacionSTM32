@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ejemplo34_ISR/Ejemplo31_QueueReferencia.ioc&apos; to &apos;Ejemplo34_ISR.ioc&apos;" description="Rename resource &apos;Ejemplo31_QueueReferencia.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Ejemplo31_QueueReferencia.ioc" name="Ejemplo34_ISR.ioc" stamp="1701644322624" updateReferences="true"/>
+</session>

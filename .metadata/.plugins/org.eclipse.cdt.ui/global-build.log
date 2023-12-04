@@ -1,168 +1,91 @@
-17:53:47 **** Incremental Build of configuration Debug for project Ejemplo31_QueueReferencia ****
+19:02:23 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:128:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  128 |   status= xTaskCreate(vTask1, "tarea1", configMINIMAL_STACK_SIZE, NULL, 0, xTask1);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
-  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
-      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c:130:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  130 |   status= xTaskCreate(vTask2, "tarea2", configMINIMAL_STACK_SIZE, NULL, 0, xTask2);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
-  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
-      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c: In function 'vTask2':
-../Core/Src/main.c:227:73: warning: pointer targets in passing argument 1 of 'UART_Printf' differ in signedness [-Wpointer-sign]
-  227 |                                                         UART_Printf(data->send_msg);
-      |                                                                     ~~~~^~~~~~~~~~
-      |                                                                         |
-      |                                                                         uint8_t * {aka unsigned char *}
-../Core/Src/main.c:72:24: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   72 | void UART_Printf(char *format,...);
-      |                  ~~~~~~^~~~~~
-arm-none-eabi-gcc -o "Ejemplo31_QueueReferencia.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo31_QueueReferencia\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo31_QueueReferencia.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo31_QueueReferencia.elf
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "Ejemplo34_ISR.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo34_ISR\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo34_ISR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo34_ISR.elf
  
-arm-none-eabi-size   Ejemplo31_QueueReferencia.elf 
-arm-none-eabi-objdump -h -S  Ejemplo31_QueueReferencia.elf  > "Ejemplo31_QueueReferencia.list"
+arm-none-eabi-size   Ejemplo34_ISR.elf 
+arm-none-eabi-objdump -h -S  Ejemplo34_ISR.elf  > "Ejemplo34_ISR.list"
    text	   data	    bss	    dec	    hex	filename
-  33112	    108	  19524	  52744	   ce08	Ejemplo31_QueueReferencia.elf
+  38868	    108	  19604	  58580	   e4d4	Ejemplo34_ISR.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo31_QueueReferencia.list
+Finished building: Ejemplo34_ISR.list
  
-17:54:04 **** Incremental Build of configuration Debug for project Ejemplo31_QueueReferencia ****
+19:02:50 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:128:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  128 |   status= xTaskCreate(vTask1, "tarea1", configMINIMAL_STACK_SIZE, NULL, 0, xTask1);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
-  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
-      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c:130:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  130 |   status= xTaskCreate(vTask2, "tarea2", configMINIMAL_STACK_SIZE, NULL, 0, xTask2);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
-  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
-      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c: In function 'vTask2':
-../Core/Src/main.c:227:73: warning: pointer targets in passing argument 1 of 'UART_Printf' differ in signedness [-Wpointer-sign]
-  227 |                                                         UART_Printf(data->send_msg);
-      |                                                                     ~~~~^~~~~~~~~~
-      |                                                                         |
-      |                                                                         uint8_t * {aka unsigned char *}
-../Core/Src/main.c:72:24: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   72 | void UART_Printf(char *format,...);
-      |                  ~~~~~~^~~~~~
-arm-none-eabi-gcc -o "Ejemplo31_QueueReferencia.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo31_QueueReferencia\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo31_QueueReferencia.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo31_QueueReferencia.elf
- 
-arm-none-eabi-size   Ejemplo31_QueueReferencia.elf 
-arm-none-eabi-objdump -h -S  Ejemplo31_QueueReferencia.elf  > "Ejemplo31_QueueReferencia.list"
+arm-none-eabi-size   Ejemplo34_ISR.elf 
    text	   data	    bss	    dec	    hex	filename
-  33112	    108	  19524	  52744	   ce08	Ejemplo31_QueueReferencia.elf
+  38868	    108	  19604	  58580	   e4d4	Ejemplo34_ISR.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo31_QueueReferencia.list
- 
-17:55:17 **** Incremental Build of configuration Debug for project Ejemplo31_QueueReferencia ****
+19:02:59 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:128:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  128 |   status= xTaskCreate(vTask1, "tarea1", configMINIMAL_STACK_SIZE, NULL, 0, xTask1);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
-  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
-      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c:130:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  130 |   status= xTaskCreate(vTask2, "tarea2", configMINIMAL_STACK_SIZE, NULL, 0, xTask2);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
-  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
-      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c: In function 'vTask2':
-../Core/Src/main.c:227:73: warning: pointer targets in passing argument 1 of 'UART_Printf' differ in signedness [-Wpointer-sign]
-  227 |                                                         UART_Printf(data->send_msg);
-      |                                                                     ~~~~^~~~~~~~~~
-      |                                                                         |
-      |                                                                         uint8_t * {aka unsigned char *}
-../Core/Src/main.c:72:24: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   72 | void UART_Printf(char *format,...);
-      |                  ~~~~~~^~~~~~
-arm-none-eabi-gcc -o "Ejemplo31_QueueReferencia.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo31_QueueReferencia\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo31_QueueReferencia.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo31_QueueReferencia.elf
- 
-arm-none-eabi-size   Ejemplo31_QueueReferencia.elf 
-arm-none-eabi-objdump -h -S  Ejemplo31_QueueReferencia.elf  > "Ejemplo31_QueueReferencia.list"
+arm-none-eabi-size   Ejemplo34_ISR.elf 
    text	   data	    bss	    dec	    hex	filename
-  33120	    108	  19524	  52752	   ce10	Ejemplo31_QueueReferencia.elf
+  38868	    108	  19604	  58580	   e4d4	Ejemplo34_ISR.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo31_QueueReferencia.list
- 
-17:59:03 **** Incremental Build of configuration Debug for project Ejemplo31_QueueReferencia ****
+19:09:22 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:128:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  128 |   status= xTaskCreate(vTask1, "tarea1", configMINIMAL_STACK_SIZE, NULL, 0, xTask1);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
+../Core/Src/main.c:141:55: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  141 |   status= xTaskCreate(vTask1, "tarea1", 400, NULL, 0, xTask1);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       TaskHandle_t {aka struct tskTaskControlBlock *}
+In file included from ../Core/Src/main.c:28:
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
   360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
       |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c:130:76: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
-  130 |   status= xTaskCreate(vTask2, "tarea2", configMINIMAL_STACK_SIZE, NULL, 0, xTask2);
-      |                                                                            ^~~~~~
-      |                                                                            |
-      |                                                                            TaskHandle_t {aka struct tskTaskControlBlock *}
-In file included from ../Core/Src/main.c:27:
-C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo31_QueueReferencia/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
+../Core/Src/main.c:144:55: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  144 |   status= xTaskCreate(vTask2, "tarea2", 400, NULL, 0, xTask2);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       TaskHandle_t {aka struct tskTaskControlBlock *}
+In file included from ../Core/Src/main.c:28:
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
   360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
       |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-../Core/Src/main.c: In function 'vTask2':
-../Core/Src/main.c:227:73: warning: pointer targets in passing argument 1 of 'UART_Printf' differ in signedness [-Wpointer-sign]
-  227 |                                                         UART_Printf(data->send_msg);
-      |                                                                     ~~~~^~~~~~~~~~
-      |                                                                         |
-      |                                                                         uint8_t * {aka unsigned char *}
-../Core/Src/main.c:72:24: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-   72 | void UART_Printf(char *format,...);
-      |                  ~~~~~~^~~~~~
-arm-none-eabi-gcc -o "Ejemplo31_QueueReferencia.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo31_QueueReferencia\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo31_QueueReferencia.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo31_QueueReferencia.elf
+../Core/Src/main.c:147:55: warning: passing argument 6 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  147 |   status= xTaskCreate(vTask3, "tarea3", 400, NULL, 0, xTask3);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       TaskHandle_t {aka struct tskTaskControlBlock *}
+In file included from ../Core/Src/main.c:28:
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/include/task.h:360:50: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'}
+  360 |                             TaskHandle_t * const pxCreatedTask ) PRIVILEGED_FUNCTION;
+      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Ejemplo34_ISR.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo34_ISR\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo34_ISR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo34_ISR.elf
  
-arm-none-eabi-size   Ejemplo31_QueueReferencia.elf 
-arm-none-eabi-objdump -h -S  Ejemplo31_QueueReferencia.elf  > "Ejemplo31_QueueReferencia.list"
+arm-none-eabi-size   Ejemplo34_ISR.elf 
+arm-none-eabi-objdump -h -S  Ejemplo34_ISR.elf  > "Ejemplo34_ISR.list"
    text	   data	    bss	    dec	    hex	filename
-  33120	    108	  19524	  52752	   ce10	Ejemplo31_QueueReferencia.elf
+  38868	    108	  19604	  58580	   e4d4	Ejemplo34_ISR.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo31_QueueReferencia.list
+Finished building: Ejemplo34_ISR.list
+ 
+19:10:55 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/include" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/Config" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/OS" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares/Third_Party/SEGGER/SEGGER" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo34_ISR/Middlewares" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "Ejemplo34_ISR.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo34_ISR\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo34_ISR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo34_ISR.elf
+ 
+arm-none-eabi-size   Ejemplo34_ISR.elf 
+arm-none-eabi-objdump -h -S  Ejemplo34_ISR.elf  > "Ejemplo34_ISR.list"
+   text	   data	    bss	    dec	    hex	filename
+  38884	    108	  19604	  58596	   e4e4	Ejemplo34_ISR.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo34_ISR.list
+ 
+19:11:11 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo34_ISR.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38884	    108	  19604	  58596	   e4e4	Ejemplo34_ISR.elf
+Finished building: default.size.stdout
  

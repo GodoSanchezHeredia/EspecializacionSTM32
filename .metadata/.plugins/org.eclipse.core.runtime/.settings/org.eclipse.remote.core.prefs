@@ -8,4 +8,9 @@ connections/org.eclipse.remote.serial.core.connectionType/serial/serial.byteSize
 connections/org.eclipse.remote.serial.core.connectionType/serial/serial.parity=0
 connections/org.eclipse.remote.serial.core.connectionType/serial/serial.portName=COM3
 connections/org.eclipse.remote.serial.core.connectionType/serial/serial.stopBits=0
+connections/org.eclipse.remote.serial.core.connectionType/ss/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/ss/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/ss/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/ss/serial.portName=COM9
+connections/org.eclipse.remote.serial.core.connectionType/ss/serial.stopBits=0
 eclipse.preferences.version=1
