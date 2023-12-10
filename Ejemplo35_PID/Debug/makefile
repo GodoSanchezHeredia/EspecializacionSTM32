@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Ejemplo8_PID
+BUILD_ARTIFACT_NAME := Ejemplo35_PID
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Ejemplo8_PID.elf \
+Ejemplo35_PID.elf \
 
 MAP_FILES += \
-Ejemplo8_PID.map \
+Ejemplo35_PID.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Ejemplo8_PID.list \
+Ejemplo35_PID.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Ejemplo8_PID.elf secondary-outputs
+main-build: Ejemplo35_PID.elf secondary-outputs
 
 # Tool invocations
-Ejemplo8_PID.elf Ejemplo8_PID.map: $(OBJS) $(USER_OBJS) C:\Users\DELL\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo8_PID\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Ejemplo8_PID.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\DELL\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo8_PID\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo8_PID.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Ejemplo35_PID.elf Ejemplo35_PID.map: $(OBJS) $(USER_OBJS) C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo35_PID\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Ejemplo35_PID.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo35_PID\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo35_PID.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Ejemplo8_PID.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Ejemplo8_PID.list"
+Ejemplo35_PID.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Ejemplo35_PID.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Ejemplo8_PID.elf Ejemplo8_PID.list Ejemplo8_PID.map default.size.stdout
+	-$(RM) Ejemplo35_PID.elf Ejemplo35_PID.list Ejemplo35_PID.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
