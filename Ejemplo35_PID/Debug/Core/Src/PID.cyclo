@@ -1,0 +1,2 @@
+../Core/Src/PID.c:4:6:Controlador_PID	1
+../Core/Src/PID.c:13:7:ControladorPID_Calculo	3

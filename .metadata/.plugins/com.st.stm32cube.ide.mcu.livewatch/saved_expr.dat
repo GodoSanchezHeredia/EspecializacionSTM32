@@ -1,3 +1,7 @@
-value
-str_value
-xQueue
+ref
+buffer_rx
+i
+rx_char
+MotorDC
+U
+rpm

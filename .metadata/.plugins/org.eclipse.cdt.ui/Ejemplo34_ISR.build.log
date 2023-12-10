@@ -1,4 +1,4 @@
-19:11:11 **** Incremental Build of configuration Debug for project Ejemplo34_ISR ****
+17:01:26 **** Build of configuration Debug for project Ejemplo34_ISR ****
 make -j4 all 
 arm-none-eabi-size   Ejemplo34_ISR.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Ejemplo34_ISR.elf
 Finished building: default.size.stdout
  
 
-19:11:12 Build Finished. 0 errors, 0 warnings. (took 860ms)
+17:01:27 Build Finished. 0 errors, 0 warnings. (took 1s.296ms)
 

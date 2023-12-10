@@ -1,0 +1,10 @@
+18:15:53 **** Incremental Build of configuration Debug for project Ejemplo35_PID ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo35_PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39580	    528	   2376	  42484	   a5f4	Ejemplo35_PID.elf
+Finished building: default.size.stdout
+ 
+
+18:15:54 Build Finished. 0 errors, 0 warnings. (took 784ms)
+
