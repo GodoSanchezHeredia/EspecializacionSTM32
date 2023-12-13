@@ -1,0 +1,10 @@
+17:27:38 **** Incremental Build of configuration Debug for project X-CUBE-DSPDEMO ****
+make -j4 all 
+arm-none-eabi-size   X-CUBE-DSPDEMO.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 216928	   2140	 122964	 342032	  53810	X-CUBE-DSPDEMO.elf
+Finished building: default.size.stdout
+ 
+
+17:27:39 Build Finished. 0 errors, 0 warnings. (took 1s.333ms)
+

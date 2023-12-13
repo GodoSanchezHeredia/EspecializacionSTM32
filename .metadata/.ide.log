@@ -248,3 +248,278 @@
 2023-12-10 15:32:21,296 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2023-12-10 15:32:21,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
 2023-12-10 15:32:21,302 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-12-10 17:14:11,468 [INFO] Activator:176 - 
+
+
+2023-12-10 17:14:11,473 [INFO] Activator:177 - !SESSION log4j initialized
+2023-12-10 17:14:29,319 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-12-10 17:14:42,961 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:42,964 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:42,966 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:42,967 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:42,968 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:49,940 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.prefix.1860424730 uses a null category that is invalid in its context. The option was ignored.
+2023-12-10 17:14:49,951 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1861626661 uses a null category that is invalid in its context. The option was ignored.
+2023-12-10 17:14:49,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.1636591422 uses a null category that is invalid in its context. The option was ignored.
+2023-12-10 17:14:49,977 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.instructionSet.1041835026 uses a null category that is invalid in its context. The option was ignored.
+2023-12-10 17:14:49,988 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.1498653730 uses a null category that is invalid in its context. The option was ignored.
+2023-12-10 17:14:50,039 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.1877982298 uses a null category that is invalid in its context. The option was ignored.
+2023-12-10 17:14:51,286 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2023-12-10 17:14:51,329 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2023-12-10 17:14:51,330 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2023-12-10 17:14:51,330 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2023-12-10 17:14:51,364 [INFO] ApiDb:250 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-12-10 17:14:51,367 [INFO] DbMcusAds:125 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-12-10 17:14:51,407 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-12-10 17:14:51,709 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-12-10 17:14:51,931 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2023-12-10 17:14:51,932 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2023-12-10 17:14:51,932 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2023-12-10 17:14:51,932 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:51,933 [INFO] ApiDb:250 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-12-10 17:14:51,933 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:51,933 [INFO] DbMcusAds:125 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-12-10 17:14:51,933 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:51,934 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:51,934 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-12-10 17:14:52,205 [INFO] MainPanel:262 - HeapMemory: 268435456
+2023-12-10 17:14:52,517 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2023-12-10 17:14:52,517 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2023-12-10 17:14:52,518 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2023-12-10 17:14:52,519 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:52,519 [INFO] ApiDb:250 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-12-10 17:14:52,519 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:52,519 [INFO] DbMcusAds:125 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-12-10 17:14:52,519 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:52,520 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-12-10 17:14:52,520 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-12-10 17:14:52,567 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2023-12-10 17:14:52,573 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2023-12-10 17:14:52,579 [INFO] PluginManage:310 - Check plugin analytics
+2023-12-10 17:14:57,940 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: STM32CubeMX.6.9.1,STM32CubeMX.6.4.0,STM32CubeMX.6.10.0
+2023-12-10 17:14:57,941 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2023-12-10 17:14:57,941 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: FW.F4.1.27.0
+2023-12-10 17:14:57,948 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-12-10 17:14:57,949 [INFO] PluginManage:310 - Check plugin cadmodel
+2023-12-10 17:14:58,031 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:58,033 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:58,034 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:58,035 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:58,036 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:14:58,037 [INFO] CADModel:105 - Init CAD model plugin
+2023-12-10 17:14:58,038 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-12-10 17:14:58,038 [INFO] PluginManage:310 - Check plugin clock
+2023-12-10 17:14:58,085 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2023-12-10 17:14:58,085 [INFO] PluginManage:310 - Check plugin ddr
+2023-12-10 17:14:58,092 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-12-10 17:14:58,092 [INFO] PluginManage:310 - Check plugin filemanager
+2023-12-10 17:14:58,526 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-12-10 17:14:58,526 [INFO] PluginManage:310 - Check plugin ipmanager
+2023-12-10 17:14:58,549 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-12-10 17:14:58,549 [INFO] PluginManage:310 - Check plugin lpbam
+2023-12-10 17:14:58,881 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-12-10 17:14:58,881 [INFO] PluginManage:310 - Check plugin memorymap
+2023-12-10 17:14:59,005 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2023-12-10 17:14:59,005 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2023-12-10 17:14:59,090 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-12-10 17:14:59,090 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2023-12-10 17:14:59,408 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2023-12-10 17:14:59,922 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-12-10 17:14:59,922 [INFO] PluginManage:310 - Check plugin power
+2023-12-10 17:14:59,967 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2023-12-10 17:14:59,968 [INFO] PluginManage:310 - Check plugin projectmanager
+2023-12-10 17:15:00,024 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-12-10 17:15:00,024 [INFO] PluginManage:310 - Check plugin thirdparty
+2023-12-10 17:15:01,219 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-12-10 17:15:01,220 [INFO] PluginManage:310 - Check plugin tools
+2023-12-10 17:15:01,239 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2023-12-10 17:15:01,240 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2023-12-10 17:15:01,243 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-12-10 17:15:01,572 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2023-12-10 17:15:01,572 [INFO] PluginManage:310 - Check plugin tutovideos
+2023-12-10 17:15:02,391 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-12-10 17:15:02,391 [INFO] PluginManage:310 - Check plugin updater
+2023-12-10 17:15:02,655 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2023-12-10 17:15:02,656 [INFO] PluginManage:310 - Check plugin userauth
+2023-12-10 17:15:02,673 [INFO] UserAuth:113 - Init User Auth plugin
+2023-12-10 17:15:02,674 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2023-12-10 17:15:02,675 [INFO] PluginManage:283 - PluginManage : Loaded plugins [17]
+2023-12-10 17:15:04,244 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-12-10 17:15:05,261 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-12-10 17:15:05,624 [INFO] CADModel:165 - CPN selected for project level
+2023-12-10 17:15:05,624 [INFO] CADModel:114 - Register for checkConnection events
+2023-12-10 17:15:06,028 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:06,028 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2023-12-10 17:15:06,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:06,239 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2023-12-10 17:15:06,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:06,710 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2023-12-10 17:15:06,927 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:06,927 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2023-12-10 17:15:07,246 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [3/15]
+2023-12-10 17:15:08,443 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:08,443 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2023-12-10 17:15:08,727 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:08,727 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2023-12-10 17:15:08,778 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:08,781 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2023-12-10 17:15:09,502 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:09,502 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2023-12-10 17:15:09,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:09,893 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2023-12-10 17:15:10,249 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [4/15]
+2023-12-10 17:15:11,264 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:11,264 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2023-12-10 17:15:11,367 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:11,373 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2023-12-10 17:15:13,249 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [5/15]
+2023-12-10 17:15:14,524 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:14,524 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2023-12-10 17:15:15,247 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:15,248 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2023-12-10 17:15:16,252 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [6/15]
+2023-12-10 17:15:19,254 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [7/15]
+2023-12-10 17:15:20,488 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:20,489 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2023-12-10 17:15:20,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:20,712 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2023-12-10 17:15:21,243 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:21,243 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2023-12-10 17:15:21,635 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:21,638 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2023-12-10 17:15:21,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:21,851 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2023-12-10 17:15:21,963 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:21,964 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2023-12-10 17:15:22,085 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,085 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2023-12-10 17:15:22,254 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [8/15]
+2023-12-10 17:15:22,406 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,406 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2023-12-10 17:15:22,646 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,646 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2023-12-10 17:15:22,755 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,755 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2023-12-10 17:15:22,834 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,834 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2023-12-10 17:15:22,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,865 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2023-12-10 17:15:22,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,892 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2023-12-10 17:15:22,980 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:22,980 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2023-12-10 17:15:23,084 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,084 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2023-12-10 17:15:23,152 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,152 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2023-12-10 17:15:23,171 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,174 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2023-12-10 17:15:23,208 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,208 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2023-12-10 17:15:23,224 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,224 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2023-12-10 17:15:23,303 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,304 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2023-12-10 17:15:23,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,365 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2023-12-10 17:15:23,458 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,459 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2023-12-10 17:15:23,494 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,494 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2023-12-10 17:15:23,579 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,579 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2023-12-10 17:15:23,624 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,624 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2023-12-10 17:15:23,665 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,665 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2023-12-10 17:15:23,707 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,707 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2023-12-10 17:15:23,757 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,758 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2023-12-10 17:15:23,838 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,839 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2023-12-10 17:15:23,927 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-12-10 17:15:23,927 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2023-12-10 17:15:24,422 [INFO] CADModel:165 - CPN selected for project level
+2023-12-10 17:15:24,422 [INFO] CADModel:114 - Register for checkConnection events
+2023-12-10 17:15:24,423 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:24,423 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-12-10 17:15:24,914 [INFO] CADModel:165 - CPN selected for project level
+2023-12-10 17:15:24,915 [INFO] CADModel:114 - Register for checkConnection events
+2023-12-10 17:15:24,916 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:24,916 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-12-10 17:15:24,927 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:25,275 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [9/15]
+2023-12-10 17:15:25,742 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:25,778 [INFO] DbMcusAds:53 - JSON generation date=Wed Nov 29 05:52:38 PET 2023 (1701255158764)
+2023-12-10 17:15:25,778 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:25,927 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-12-10 17:15:26,150 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:26,153 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:26,153 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:26,154 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-12-10 17:15:26,156 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-12-10 17:15:26,307 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-12-10 17:15:26,328 [INFO] Updater:1056 - Updater Version found : 6.9.1
+2023-12-10 17:15:26,361 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2023-12-10 17:15:27,365 [INFO] MainUpdater:2868 - connection check result : 10
+2023-12-10 17:15:27,367 [INFO] MainUpdater:285 - Updater Check For Update Now.
+2023-12-10 17:15:27,367 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-12-10 17:15:27,584 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-12-10 17:15:27,585 [INFO] UserAuth:179 - activating auth plugin
+2023-12-10 17:15:27,603 [INFO] UserAuth:393 - Internet connection configuration mode: 1
+2023-12-10 17:15:27,742 [INFO] JxBrowserEngine:151 - Initiate JxBrowser Engine with user profile folder
+2023-12-10 17:15:27,939 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-12-10 17:15:28,879 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-12-10 17:15:29,814 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.0
+2023-12-10 17:15:30,090 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-12-10 17:15:30,630 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.1.0
+2023-12-10 17:15:30,796 [INFO] ThirdParty:978 - Integrity check success = true
+2023-12-10 17:15:30,796 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2023-12-10 17:15:30,796 [INFO] IntegrityCheckThread:103 - End integrity checks thread
+2023-12-10 17:15:33,689 [INFO] WebApp:157 - Instantiating new browser for Auth
+2023-12-10 17:15:35,110 [INFO] WebApp:753 - Register for checkConnection events
+2023-12-10 17:15:35,110 [INFO] WebApp:390 - Apply proxy settings
+2023-12-10 17:15:35,110 [INFO] WebApp:475 - Chromium requires no authentication
+2023-12-10 17:15:35,125 [INFO] WebApp:418 - Direct internet connection detected
+2023-12-10 17:15:35,460 [INFO] WebApp:188 - Starting web application
+2023-12-10 17:15:35,460 [INFO] WebApp:520 - Web application path used C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\db\plugins\mcufinder\reactClient1\index.html
+2023-12-10 17:15:57,950 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-12-10 17:15:57,953 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-12-10 17:15:57,957 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-12-10 17:17:40,210 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:40,212 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:40,212 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:40,213 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:40,214 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:47,874 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:47,876 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:47,876 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:47,877 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:17:47,880 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,119 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,122 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,122 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,123 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,125 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,127 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,127 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,128 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,129 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:27,130 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:58,462 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:58,463 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:58,464 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:58,465 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:20:58,466 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,729 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,731 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,732 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,733 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,735 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,738 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,738 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,739 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,740 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:00,740 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2023-12-10 17:33:05,978 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

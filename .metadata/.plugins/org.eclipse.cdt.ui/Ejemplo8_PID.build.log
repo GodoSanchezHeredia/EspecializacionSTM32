@@ -1,30 +1,10 @@
-18:16:21 **** Incremental Build of configuration Debug for project Ejemplo8_PID ****
+17:18:16 **** Incremental Build of configuration Debug for project Ejemplo8_PID ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
-../Core/Src/main.c:405:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
-  405 |     HAL_UART_Transmit(&huart2, buffer_tx, strlen((char*)buffer_tx), 5);
-      |                                ^~~~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
-  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
-      |                                                                ~~~~~~~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "Ejemplo8_PID.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo8_PID\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo8_PID.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo8_PID.elf
- 
 arm-none-eabi-size   Ejemplo8_PID.elf 
-arm-none-eabi-objdump -h -S  Ejemplo8_PID.elf  > "Ejemplo8_PID.list"
    text	   data	    bss	    dec	    hex	filename
   39556	    528	   2416	  42500	   a604	Ejemplo8_PID.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo8_PID.list
- 
 
-18:16:24 Build Finished. 0 errors, 1 warnings. (took 3s.662ms)
+17:18:17 Build Finished. 0 errors, 0 warnings. (took 783ms)
 
