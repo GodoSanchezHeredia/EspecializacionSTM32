@@ -1,0 +1,10 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:62:6:NMI_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:71:6:HardFault_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:83:6:MemManage_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:96:6:BusFault_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:109:6:UsageFault_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:122:6:DebugMon_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:131:6:SysTick_Handler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:151:6:OTG_HS_IRQHandler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:163:6:LTDC_IRQHandler	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_it.c:175:6:TIM5_IRQHandler	2

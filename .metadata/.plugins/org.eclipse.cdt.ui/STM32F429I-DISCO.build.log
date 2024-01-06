@@ -1,0 +1,10 @@
+17:38:52 **** Incremental Build of configuration Debug for project STM32F429I-DISCO ****
+make -j4 all 
+arm-none-eabi-size   STM32F429I-DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+1093250	    384	 543380	1637014	 18fa96	STM32F429I-DISCO.elf
+Finished building: default.size.stdout
+ 
+
+17:38:55 Build Finished. 0 errors, 0 warnings. (took 3s.38ms)
+

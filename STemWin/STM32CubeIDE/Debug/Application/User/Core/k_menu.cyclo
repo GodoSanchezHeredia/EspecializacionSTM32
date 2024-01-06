@@ -1,0 +1,17 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:137:13:_cbCpuWindow	5
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:167:13:_cbTaskWindow	5
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:198:6:k_UpdateLog	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:214:13:_cbKernelLogDialog	10
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:269:13:_UpdateProcessManagerView	8
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:323:13:_cbProcessManagerDialog	13
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:398:13:_cbPerformanceDialog	6
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:456:13:_MoveSprite	6
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:487:7:_ShowSprites	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:502:13:_AddMenuItem	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:522:13:_OpenPopup	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:544:13:_cbBk	26
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:699:13:_cbStatus	20
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:819:13:_OnPaint	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:854:13:_cbButton	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:871:6:k_SetGuiProfile	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_menu.c:945:6:k_InitMenu	3

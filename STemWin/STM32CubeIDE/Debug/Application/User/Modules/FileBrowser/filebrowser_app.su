@@ -1,0 +1,3 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Modules/filebrowser/filebrowser_app.c:44:10:FILEMGR_ParseDisks	360	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Modules/filebrowser/filebrowser_app.c:98:6:FILEMGR_GetParentDir	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Modules/filebrowser/filebrowser_app.c:121:6:FILEMGR_GetFileOnly	24	static

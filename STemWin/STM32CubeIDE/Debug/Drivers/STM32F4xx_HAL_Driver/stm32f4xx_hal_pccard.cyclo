@@ -1,0 +1,14 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:165:19:HAL_PCCARD_Init	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:224:20:HAL_PCCARD_DeInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:257:13:HAL_PCCARD_MspInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:272:13:HAL_PCCARD_MspDeInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:308:19:HAL_PCCARD_Read_ID	7
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:371:19:HAL_PCCARD_Read_Sector	10
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:448:19:HAL_PCCARD_Write_Sector	10
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:522:20:HAL_PCCARD_Erase_Sector	6
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:579:19:HAL_PCCARD_Reset	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:617:6:HAL_PCCARD_IRQHandler	5
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:682:13:HAL_PCCARD_ITCallback	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:853:25:HAL_PCCARD_GetState	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:867:26:HAL_PCCARD_GetStatus	5
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:903:26:HAL_PCCARD_ReadStatus	4

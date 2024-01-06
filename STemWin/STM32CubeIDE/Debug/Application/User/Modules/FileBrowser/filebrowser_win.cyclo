@@ -1,0 +1,14 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:132:13:_AddMenuItem	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:152:13:_OpenPopup	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:178:13:_cbFileInfoDialog	9
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:258:13:_cbHint	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:287:13:_cbMessageBox	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:312:12:_ShowMessageBox	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:346:13:_cbPopup	11
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:432:6:_FindFullPath	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:467:13:ShowNodeContent	7
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:512:13:ExploreDisks	7
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:558:13:_RefreshBrowser	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:613:13:_cbMediaConnection	7
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:652:13:_cbDialog	11
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/filebrowser/filebrowser_win.c:761:13:Startup	1

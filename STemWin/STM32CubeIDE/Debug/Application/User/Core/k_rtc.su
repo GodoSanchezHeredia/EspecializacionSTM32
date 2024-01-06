@@ -1,0 +1,11 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:51:6:k_CalendarBkupInit	104	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:107:6:HAL_RTC_MspInit	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:124:6:HAL_TIM_IC_MspInit	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:141:17:GetLSIFrequency	32	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:218:6:HAL_RTC_MspDeInit	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:233:6:k_BkupSaveParameter	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:245:10:k_BkupRestoreParameter	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:255:6:k_GetTime	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:265:6:k_SetTime	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:278:6:k_GetDate	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_rtc.c:293:6:k_SetDate	16	static

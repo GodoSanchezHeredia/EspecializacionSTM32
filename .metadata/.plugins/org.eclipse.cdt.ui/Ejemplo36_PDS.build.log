@@ -1,0 +1,20 @@
+15:54:21 **** Incremental Build of configuration Debug for project Ejemplo36_PDS ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo36_PDS.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo36_PDS\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo36_PDS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo36_PDS.elf
+ 
+arm-none-eabi-size   Ejemplo36_PDS.elf 
+arm-none-eabi-objdump -h -S  Ejemplo36_PDS.elf  > "Ejemplo36_PDS.list"
+arm-none-eabi-objcopy  -O ihex  Ejemplo36_PDS.elf  "Ejemplo36_PDS.hex"
+   text	   data	    bss	    dec	    hex	filename
+  13928	    112	   2112	  16152	   3f18	Ejemplo36_PDS.elf
+Finished building: default.size.stdout
+Finished building: Ejemplo36_PDS.hex
+ 
+ 
+Finished building: Ejemplo36_PDS.list
+ 
+
+15:54:24 Build Finished. 0 errors, 0 warnings. (took 3s.48ms)
+

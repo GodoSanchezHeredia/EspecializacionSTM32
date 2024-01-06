@@ -1,0 +1,17 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:145:19:LCD_LL_GetPixelformat	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:160:6:HAL_DMA2D_MspInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:173:6:HAL_DMA2D_MspDeInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:190:6:HAL_LTDC_MspInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:279:6:HAL_LTDC_MspDeInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:295:6:HAL_LTDC_LineEventCallback	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:332:6:LCD_X_Config	5
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:417:5:LCD_X_DisplayDriver	15
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:512:13:LCD_LL_LayerInit	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:550:13:LCD_LL_Init	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:614:13:DMA2D_CopyBuffer	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:651:13:DMA2D_FillBuffer	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:688:12:GetBufferSize	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:703:13:CUSTOM_CopyBuffer	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:724:13:CUSTOM_CopyRect	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:743:13:CUSTOM_FillRect	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Target/LCDConf_stm32f429i_disco_MB1075.c:775:13:CUSTOM_DrawBitmap32bpp	2

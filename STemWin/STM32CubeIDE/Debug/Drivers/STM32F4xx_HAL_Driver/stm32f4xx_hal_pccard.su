@@ -1,0 +1,14 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:165:19:HAL_PCCARD_Init	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:224:20:HAL_PCCARD_DeInit	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:257:13:HAL_PCCARD_MspInit	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:272:13:HAL_PCCARD_MspDeInit	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:308:19:HAL_PCCARD_Read_ID	40	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:371:19:HAL_PCCARD_Read_Sector	40	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:448:19:HAL_PCCARD_Write_Sector	40	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:522:20:HAL_PCCARD_Erase_Sector	32	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:579:19:HAL_PCCARD_Reset	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:617:6:HAL_PCCARD_IRQHandler	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:682:13:HAL_PCCARD_ITCallback	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:853:25:HAL_PCCARD_GetState	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:867:26:HAL_PCCARD_GetStatus	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:903:26:HAL_PCCARD_ReadStatus	24	static

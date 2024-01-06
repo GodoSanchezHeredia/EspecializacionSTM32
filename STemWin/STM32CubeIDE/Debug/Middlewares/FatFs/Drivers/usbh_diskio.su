@@ -1,0 +1,5 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Config/usbh_diskio.c:66:9:USBH_initialize	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Config/usbh_diskio.c:78:9:USBH_status	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Config/usbh_diskio.c:102:9:USBH_read	88	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Config/usbh_diskio.c:142:9:USBH_write	88	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Config/usbh_diskio.c:187:9:USBH_ioctl	72	static

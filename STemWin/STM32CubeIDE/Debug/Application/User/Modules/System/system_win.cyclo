@@ -1,0 +1,8 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:162:13:DrawNeedle	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:186:13:GUI_UpdateClock	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:241:13:_cbSystemInformation	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:293:13:_cbGeneralSettings	4
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:356:13:_cbDateSettings	10
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:413:13:_cbClockSettings	15
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:527:13:_cbDialog	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/system/system_win.c:583:13:Startup	1

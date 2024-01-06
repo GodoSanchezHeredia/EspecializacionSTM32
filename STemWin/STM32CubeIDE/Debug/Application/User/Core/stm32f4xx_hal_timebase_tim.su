@@ -1,0 +1,5 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_hal_timebase_tim.c:54:19:HAL_InitTick	56	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_hal_timebase_tim.c:118:6:HAL_SuspendTick	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_hal_timebase_tim.c:129:6:HAL_ResumeTick	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_hal_timebase_tim.c:143:6:HAL_TIM_PeriodElapsedCallback	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/stm32f4xx_hal_timebase_tim.c:152:6:TIM6_DAC_IRQHandler	8	static

@@ -1,10 +1,20 @@
-16:13:12 **** Incremental Build of configuration Debug for project Ejemplo12_I2C_SCAN ****
+18:13:05 **** Build of configuration Debug for project Ejemplo12_I2C_SCAN ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc -o "Ejemplo12_I2C_SCAN.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo12_I2C_SCAN\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo12_I2C_SCAN.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo12_I2C_SCAN.elf
+ 
 arm-none-eabi-size   Ejemplo12_I2C_SCAN.elf 
+arm-none-eabi-objdump -h -S  Ejemplo12_I2C_SCAN.elf  > "Ejemplo12_I2C_SCAN.list"
+arm-none-eabi-objcopy  -O ihex  Ejemplo12_I2C_SCAN.elf  "Ejemplo12_I2C_SCAN.hex"
    text	   data	    bss	    dec	    hex	filename
   13928	    112	   2056	  16096	   3ee0	Ejemplo12_I2C_SCAN.elf
 Finished building: default.size.stdout
  
+Finished building: Ejemplo12_I2C_SCAN.hex
+ 
+Finished building: Ejemplo12_I2C_SCAN.list
+ 
 
-16:13:13 Build Finished. 0 errors, 0 warnings. (took 780ms)
+18:13:10 Build Finished. 0 errors, 0 warnings. (took 5s.444ms)
 

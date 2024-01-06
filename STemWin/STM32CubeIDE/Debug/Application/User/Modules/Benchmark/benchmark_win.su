@@ -1,0 +1,6 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/benchmark/benchmark_win.c:92:12:_GetPixelsPerSecond	64	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/benchmark/benchmark_win.c:132:12:Run_SpeedTest	88	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/benchmark/benchmark_win.c:194:13:_cbCpuWindow	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/benchmark/benchmark_win.c:227:13:_ClearDesktop	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/benchmark/benchmark_win.c:245:13:_cbDialog	152	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Gui/Core/benchmark/benchmark_win.c:350:13:Startup	24	static

@@ -1,0 +1,9 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:70:6:k_StorageInit	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:98:13:StorageThread	4
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:129:9:k_StorageGetStatus	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:139:10:k_StorageGetCapacity	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:158:10:k_StorageGetFree	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:184:13:USBH_UserProcess	5
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:207:13:GetExt	4
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:237:6:k_GetExtOnly	4
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_storage.c:264:5:k_GetData	28

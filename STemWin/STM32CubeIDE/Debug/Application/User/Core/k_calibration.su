@@ -1,0 +1,8 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:78:13:_WaitForPressedState	32	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:103:13:_DispStringCentered	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:121:13:_GetPhysValues	64	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:167:13:_Explain	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:182:6:k_CalibrationInit	64	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:242:9:k_CalibrationIsDone	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:247:10:k_CalibrationGetX	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_calibration.c:252:10:k_CalibrationGetY	16	static

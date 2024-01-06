@@ -1,0 +1,13 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:73:5:GUI_X_GetTime	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:78:6:GUI_X_Delay	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:93:6:GUI_X_Init	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:105:6:GUI_X_ExecIdle	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:126:6:GUI_X_InitOS	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:141:6:GUI_X_Unlock	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:146:6:GUI_X_Lock	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:152:5:GUI_X_GetTaskId	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:158:6:GUI_X_WaitEvent	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:164:6:GUI_X_SignalEvent	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:183:6:GUI_X_Log	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:184:6:GUI_X_Warn	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Middlewares/ST/STemWin/OS/GUI_X_OS.c:185:6:GUI_X_ErrorOut	16	static

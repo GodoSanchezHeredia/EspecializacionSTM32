@@ -1,0 +1,7 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:50:6:k_ModuleInit	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:63:9:k_ModuleGetNumber	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:72:9:k_ModuleAdd	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:93:9:k_ModuleOpenLink	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:114:25:k_ModuleCheckLink	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:134:16:k_ModuleVerify	24	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Core/Src/k_module.c:157:6:k_ModuleRemove	24	static

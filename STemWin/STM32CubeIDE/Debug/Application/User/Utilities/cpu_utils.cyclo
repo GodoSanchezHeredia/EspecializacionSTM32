@@ -1,0 +1,5 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Utilities/CPU/cpu_utils.c:55:6:vApplicationIdleHook	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Utilities/CPU/cpu_utils.c:69:6:vApplicationTickHook	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Utilities/CPU/cpu_utils.c:91:6:StartIdleMonitor	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Utilities/CPU/cpu_utils.c:104:6:EndIdleMonitor	2
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Utilities/CPU/cpu_utils.c:119:10:osGetCPUUsage	1

@@ -1,0 +1,9 @@
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:102:6:ili9341_Init	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:231:10:ili9341_ReadID	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:242:6:ili9341_DisplayOn	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:253:6:ili9341_DisplayOff	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:264:6:ili9341_WriteReg	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:274:6:ili9341_WriteData	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:285:10:ili9341_ReadData	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:296:10:ili9341_GetLcdPixelWidth	4	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/STemWin/Drivers/BSP/Components/ili9341/ili9341.c:307:10:ili9341_GetLcdPixelHeight	4	static
