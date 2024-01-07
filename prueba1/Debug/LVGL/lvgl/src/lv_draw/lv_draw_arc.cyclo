@@ -1,0 +1,6 @@
+../LVGL/lvgl/src/lv_draw/lv_draw_arc.c:69:6:lv_draw_arc	16
+../LVGL/lvgl/src/lv_draw/lv_draw_arc.c:173:13:draw_quarter_0	21
+../LVGL/lvgl/src/lv_draw/lv_draw_arc.c:226:13:draw_quarter_1	21
+../LVGL/lvgl/src/lv_draw/lv_draw_arc.c:279:13:draw_quarter_2	21
+../LVGL/lvgl/src/lv_draw/lv_draw_arc.c:332:13:draw_quarter_3	21
+../LVGL/lvgl/src/lv_draw/lv_draw_arc.c:385:13:get_rounded_area	3

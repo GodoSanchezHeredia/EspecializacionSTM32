@@ -1,0 +1,3 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_roller/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_roller/lv_ex_roller_1.c:5:13:event_handler	2
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_roller/lv_ex_roller_1.c:15:6:lv_ex_roller_1	1

@@ -1,0 +1,4 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_slider/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_slider/../../../../lvgl/src/lv_widgets/lv_slider.h:106:20:lv_slider_set_range	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_2.c:8:6:lv_ex_slider_2	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_2.c:31:13:slider_event_cb	2

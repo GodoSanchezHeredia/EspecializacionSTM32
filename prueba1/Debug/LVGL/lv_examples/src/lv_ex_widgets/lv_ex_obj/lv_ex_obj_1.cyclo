@@ -1,0 +1,5 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_obj/../../../../lvgl/src/lv_core/lv_obj_style_dec.h:127:1:lv_style_set_shadow_width	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_obj/../../../../lvgl/src/lv_core/lv_obj_style_dec.h:130:1:lv_style_set_shadow_spread	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_obj/../../../../lvgl/src/lv_core/lv_obj_style_dec.h:132:1:lv_style_set_shadow_color	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_obj/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_obj/lv_ex_obj_1.c:3:6:lv_ex_obj_1	1

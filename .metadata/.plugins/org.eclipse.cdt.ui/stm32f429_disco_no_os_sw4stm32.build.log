@@ -1,0 +1,21 @@
+16:42:00 **** Incremental Build of configuration Debug for project stm32f429_disco_no_os_sw4stm32 ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F429ZITx -DSTM32F429I_DISCO -DSTM32F4 -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/stm32f429_disco_no_os_sw4stm32" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/stm32f429_disco_no_os_sw4stm32/inc" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/stm32f429_disco_no_os_sw4stm32/CMSIS/core" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/stm32f429_disco_no_os_sw4stm32/CMSIS/device" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/stm32f429_disco_no_os_sw4stm32/HAL_Driver/Inc" -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/stm32f429_disco_no_os_sw4stm32/HAL_Driver/Inc/Legacy" -O3 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "stm32f429_disco_no_os_sw4stm32.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\stm32f429_disco_no_os_sw4stm32\LinkerScript.ld" --specs=nosys.specs -Wl,-Map="stm32f429_disco_no_os_sw4stm32.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f429_disco_no_os_sw4stm32.elf
+ 
+arm-none-eabi-size   stm32f429_disco_no_os_sw4stm32.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 210028	    236	 110380	 320644	  4e484	stm32f429_disco_no_os_sw4stm32.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  stm32f429_disco_no_os_sw4stm32.elf  > "stm32f429_disco_no_os_sw4stm32.list"
+Finished building: stm32f429_disco_no_os_sw4stm32.list
+ 
+arm-none-eabi-size "stm32f429_disco_no_os_sw4stm32.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 210028	    236	 110380	 320644	  4e484	stm32f429_disco_no_os_sw4stm32.elf
+ 
+
+16:42:45 Build Finished. 0 errors, 0 warnings. (took 45s.4ms)
+

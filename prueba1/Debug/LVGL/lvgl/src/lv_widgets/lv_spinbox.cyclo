@@ -1,0 +1,16 @@
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:53:12:lv_spinbox_create	6
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:127:6:lv_spinbox_set_rollover	1
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:141:6:lv_spinbox_set_value	4
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:163:6:lv_spinbox_set_digit_format	8
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:192:6:lv_spinbox_set_step	2
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:210:6:lv_spinbox_set_range	4
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:237:6:lv_spinbox_set_padding_left	1
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:254:6:lv_spinbox_get_rollover	1
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:268:9:lv_spinbox_get_value	1
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:285:6:lv_spinbox_step_next	2
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:304:6:lv_spinbox_step_prev	2
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:321:6:lv_spinbox_increment	6
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:348:6:lv_spinbox_decrement	6
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:381:17:lv_spinbox_signal	17
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:494:26:lv_spinbox_get_style	3
+../LVGL/lvgl/src/lv_widgets/lv_spinbox.c:514:13:lv_spinbox_updatevalue	15

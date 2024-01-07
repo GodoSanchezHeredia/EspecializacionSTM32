@@ -1,0 +1,13 @@
+../LVGL/lvgl/src/lv_widgets/../lv_core/../lv_font/../lv_misc/lv_area.h:107:26:lv_area_get_width	1
+../LVGL/lvgl/src/lv_widgets/../lv_core/lv_obj_style_dec.h:100:1:lv_obj_get_style_pad_top	1
+../LVGL/lvgl/src/lv_widgets/../lv_core/lv_obj_style_dec.h:101:1:lv_obj_get_style_pad_bottom	1
+../LVGL/lvgl/src/lv_widgets/../lv_core/lv_obj_style_dec.h:102:1:lv_obj_get_style_pad_left	1
+../LVGL/lvgl/src/lv_widgets/../lv_core/lv_obj_style_dec.h:103:1:lv_obj_get_style_pad_right	1
+../LVGL/lvgl/src/lv_widgets/lv_switch.h:112:20:lv_switch_get_state	1
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:61:12:lv_switch_create	8
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:121:6:lv_switch_on	2
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:139:6:lv_switch_off	2
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:158:6:lv_switch_toggle	2
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:193:24:lv_switch_design	5
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:264:17:lv_switch_signal	13
+../LVGL/lvgl/src/lv_widgets/lv_switch.c:332:26:lv_switch_get_style	5

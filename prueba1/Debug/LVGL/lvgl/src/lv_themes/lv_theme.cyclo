@@ -1,0 +1,15 @@
+../LVGL/lvgl/src/lv_themes/lv_theme.c:43:6:lv_theme_set_act	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:52:14:lv_theme_get_act	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:62:6:lv_theme_apply	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:78:6:lv_theme_copy	2
+../LVGL/lvgl/src/lv_themes/lv_theme.c:103:6:lv_theme_set_base	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:114:6:lv_theme_set_apply_cb	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:123:19:lv_theme_get_font_small	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:132:19:lv_theme_get_font_normal	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:141:19:lv_theme_get_font_subtitle	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:150:19:lv_theme_get_font_title	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:159:12:lv_theme_get_color_primary	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:168:12:lv_theme_get_color_secondary	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:177:10:lv_theme_get_flags	1
+../LVGL/lvgl/src/lv_themes/lv_theme.c:186:13:apply_theme	4
+../LVGL/lvgl/src/lv_themes/lv_theme.c:201:13:clear_styles	41

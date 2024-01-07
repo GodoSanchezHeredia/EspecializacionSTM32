@@ -1,0 +1,8 @@
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:92:1:lv_style_set_radius	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:113:1:lv_style_set_bg_color	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:115:1:lv_style_set_bg_opa	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:122:1:lv_style_set_outline_width	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:123:1:lv_style_set_outline_pad	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:125:1:lv_style_set_outline_color	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_style/lv_ex_style_3.c:6:6:lv_ex_style_3	1

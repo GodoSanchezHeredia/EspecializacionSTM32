@@ -1,0 +1,9 @@
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:18:6:XPT2046_Select	1
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:32:6:XPT2046_Deselect	1
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:39:10:XPT2046_Irq_Read	1
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:44:16:SendReceive_Byte	1
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:51:6:XPT2046_Init	1
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:70:10:XPT2046_Get_Value	1
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:84:6:XPT2046_Get_Touch_XY	4
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:114:6:XPT2046_Corr	5
+../LVGL/hal_stm_lvgl/touch/xpt2046.c:158:6:XPT2046_Average	4

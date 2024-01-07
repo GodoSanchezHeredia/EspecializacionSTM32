@@ -1,0 +1,4 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/../../../../lvgl/src/lv_widgets/lv_checkbox.h:125:20:lv_checkbox_is_checked	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c:5:13:event_handler	3
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c:12:6:lv_ex_chechbox_1	1

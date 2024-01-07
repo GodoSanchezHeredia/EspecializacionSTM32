@@ -1,0 +1,5 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/../../../../lvgl/src/lv_core/lv_obj_style_dec.h:149:1:lv_obj_set_style_local_value_str	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c:8:13:lv_spinbox_increment_event_cb	3
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c:15:13:lv_spinbox_decrement_event_cb	3
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c:23:6:lv_ex_spinbox_1	1

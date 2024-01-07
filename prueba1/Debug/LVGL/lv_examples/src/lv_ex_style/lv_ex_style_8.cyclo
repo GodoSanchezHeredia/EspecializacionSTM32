@@ -1,0 +1,5 @@
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:159:1:lv_style_set_line_width	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:163:1:lv_style_set_line_rounded	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_obj_style_dec.h:164:1:lv_style_set_line_color	1
+../LVGL/lv_examples/src/lv_ex_style/../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_style/lv_ex_style_8.c:6:6:lv_ex_style_8	1

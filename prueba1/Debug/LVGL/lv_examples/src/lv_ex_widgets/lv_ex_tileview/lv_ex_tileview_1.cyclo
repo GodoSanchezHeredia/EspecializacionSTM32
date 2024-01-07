@@ -1,0 +1,5 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_tileview/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_tileview/../../../../lvgl/src/lv_widgets/lv_list.h:125:20:lv_list_set_scrollbar_mode	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_tileview/../../../../lvgl/src/lv_widgets/lv_list.h:136:20:lv_list_set_scroll_propagation	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_tileview/../../../../lvgl/src/lv_widgets/lv_tileview.h:105:20:lv_tileview_set_edge_flash	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c:4:6:lv_ex_tileview_1	1

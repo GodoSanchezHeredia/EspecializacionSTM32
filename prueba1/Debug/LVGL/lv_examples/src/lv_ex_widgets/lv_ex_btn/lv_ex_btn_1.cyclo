@@ -1,0 +1,5 @@
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_btn/../../../../lvgl/src/lv_core/lv_disp.h:158:26:lv_scr_act	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_btn/../../../../lvgl/src/lv_widgets/lv_cont.h:157:20:lv_cont_set_fit2	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_btn/../../../../lvgl/src/lv_widgets/lv_btn.h:133:20:lv_btn_set_fit2	1
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_1.c:5:13:event_handler	3
+../LVGL/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_1.c:15:6:lv_ex_btn_1	1
