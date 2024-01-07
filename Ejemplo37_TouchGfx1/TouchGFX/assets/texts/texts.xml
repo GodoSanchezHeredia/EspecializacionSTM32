@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_Z9YF" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">fRUTA -Touch Touch</Translation>
+      </Text>
+      <Text Id="__SingleUse_3JG4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">QHIPATECH</Translation>
+      </Text>
+      <Text Id="__SingleUse_XS41" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">STM32&#10;F4</Translation>
+      </Text>
+      <Text Id="__SingleUse_QQDV" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Ejemplo 37&#10;Touch GFX</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

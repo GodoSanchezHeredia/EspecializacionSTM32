@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1Presenter.hpp:28:13:Escena1Presenter::~Escena1Presenter()	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/TouchGFX/gui/src/escena1_screen/Escena1Presenter.cpp:10:6:virtual void Escena1Presenter::activate()	1
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1Presenter.hpp:28:13:virtual Escena1Presenter::~Escena1Presenter()	1
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1Presenter.hpp:28:13:virtual void* Escena1Presenter::_ZThn4_N16Escena1PresenterD1Ev()	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/TouchGFX/gui/src/escena1_screen/Escena1Presenter.cpp:4:1:Escena1Presenter::Escena1Presenter(Escena1View&)	1

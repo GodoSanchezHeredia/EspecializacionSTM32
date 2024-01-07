@@ -1,0 +1,17 @@
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:826:13:SPI5_Write	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:938:6:StartDefaultTask	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:240:6:SystemClock_Config	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:150:5:main	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:670:6:IOE_Init	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:679:6:IOE_ITConfig	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:691:6:IOE_Write	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:702:9:IOE_Read	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:715:10:IOE_ReadMultiple	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:724:6:IOE_Delay	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:852:6:LCD_IO_Init	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:862:6:LCD_IO_WriteData	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:878:6:LCD_IO_WriteReg	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:897:10:LCD_IO_ReadData	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:924:6:LCD_Delay	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:957:6:HAL_TIM_PeriodElapsedCallback	2
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/Core/Src/main.c:974:6:Error_Handler	1

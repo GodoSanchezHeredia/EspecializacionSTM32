@@ -1,0 +1,3 @@
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/model/Model.cpp:8:6:long int map(long int, long int, long int, long int, long int)	1
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/model/Model.cpp:16:1:Model::Model()	1
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/model/Model.cpp:21:6:void Model::tick()	1

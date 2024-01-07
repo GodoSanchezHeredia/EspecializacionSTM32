@@ -1,0 +1,33 @@
+#include <gui/escena3_screen/Escena3View.hpp>
+
+Escena3View::Escena3View()
+{
+
+}
+
+void Escena3View::setupScreen()
+{
+    Escena3ViewBase::setupScreen();
+}
+
+void Escena3View::tearDownScreen()
+{
+    Escena3ViewBase::tearDownScreen();
+}
+
+void Escena3View::setLight(bool state){
+
+	shape1.setVisible(state);
+	shape1.invalidate();
+}
+
+void Escena3View::setADC(int val){
+
+	Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%d", val);
+	textArea1.invalidate();
+/*
+	dynamicGraph1.addDataPoint(val);
+	dynamicGraph1.invalidate();*/
+	gauge1.setValue(val);
+	gauge1.invalidate();
+}

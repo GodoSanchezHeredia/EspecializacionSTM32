@@ -1,0 +1,10 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp:13:6:virtual void Escena3View::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/escena3_screen/Escena3View.hpp:11:13:Escena3View::~Escena3View()	8	static
+../../TouchGFX/gui/include/gui/escena3_screen/Escena3View.hpp:11:13:virtual Escena3View::~Escena3View()	8	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp:3:1:Escena3View::Escena3View()	8	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp:8:6:virtual void Escena3View::setupScreen()	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp:18:6:virtual void Escena3View::setLight(bool)	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp:24:6:virtual void Escena3View::setADC(int)	24	static

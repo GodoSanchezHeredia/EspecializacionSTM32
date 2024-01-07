@@ -1,0 +1,11 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1View.cpp:15:6:virtual void Escena1View::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1View.hpp:11:13:Escena1View::~Escena1View()	1
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1View.hpp:11:13:virtual Escena1View::~Escena1View()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:142:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	1
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1View.cpp:20:6:virtual void Escena1View::ToggleLed1()	2
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1View.cpp:30:6:virtual void Escena1View::ToggleLed2()	2
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1View.cpp:5:1:Escena1View::Escena1View()	1
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1View.cpp:10:6:virtual void Escena1View::setupScreen()	1

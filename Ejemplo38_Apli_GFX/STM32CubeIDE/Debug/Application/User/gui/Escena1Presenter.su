@@ -1,0 +1,7 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:18:18:virtual void ModelListener::setLight(bool)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:19:18:virtual void ModelListener::setADC(int)	0	static
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1Presenter.hpp:28:13:Escena1Presenter::~Escena1Presenter()	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1Presenter.cpp:10:6:virtual void Escena1Presenter::activate()	0	static
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1Presenter.hpp:28:13:virtual Escena1Presenter::~Escena1Presenter()	8	static
+../../TouchGFX/gui/include/gui/escena1_screen/Escena1Presenter.hpp:28:13:virtual void* Escena1Presenter::_ZThn4_N16Escena1PresenterD1Ev()	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena1_screen/Escena1Presenter.cpp:4:1:Escena1Presenter::Escena1Presenter(Escena1View&)	8	static

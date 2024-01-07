@@ -1,0 +1,15 @@
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:65:6:HAL_MspInit	8	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:89:6:HAL_ADC_MspInit	40	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:122:6:HAL_ADC_MspDeInit	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:150:6:HAL_CRC_MspInit	8	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:172:6:HAL_CRC_MspDeInit	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:194:6:HAL_DMA2D_MspInit	16	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:219:6:HAL_DMA2D_MspDeInit	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:244:6:HAL_I2C_MspInit	64	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:292:6:HAL_I2C_MspDeInit	8	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:323:6:HAL_LTDC_MspInit	120	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:448:6:HAL_LTDC_MspDeInit	8	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:510:6:HAL_SPI_MspInit	40	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:547:6:HAL_SPI_MspDeInit	0	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:679:6:HAL_SDRAM_MspInit	48	static
+C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_msp.c:765:6:HAL_SDRAM_MspDeInit	8	static

@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:13:6:virtual void Escena2View::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/escena2_screen/Escena2View.hpp:11:13:Escena2View::~Escena2View()	1
+../../TouchGFX/gui/include/gui/escena2_screen/Escena2View.hpp:11:13:virtual Escena2View::~Escena2View()	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:3:1:Escena2View::Escena2View()	1
+C:/TouchGFXProjects/Ejemplo37_TouchGfx1/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:8:6:virtual void Escena2View::setupScreen()	1

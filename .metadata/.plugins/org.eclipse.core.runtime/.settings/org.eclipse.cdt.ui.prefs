@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+markOccurrences=false
 scalability.numberOfLines=10000
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true

@@ -1,0 +1,16 @@
+#include <gui/escena3_screen/Escena3View.hpp>
+
+Escena3View::Escena3View()
+{
+
+}
+
+void Escena3View::setupScreen()
+{
+    Escena3ViewBase::setupScreen();
+}
+
+void Escena3View::tearDownScreen()
+{
+    Escena3ViewBase::tearDownScreen();
+}

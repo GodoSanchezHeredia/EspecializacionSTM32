@@ -1,0 +1,38 @@
+#include <gui/escena1_screen/Escena1View.hpp>
+
+#include "stm32f4xx_hal.h"
+
+Escena1View::Escena1View()
+{
+
+}
+
+void Escena1View::setupScreen()
+{
+    Escena1ViewBase::setupScreen();
+}
+
+void Escena1View::tearDownScreen()
+{
+    Escena1ViewBase::tearDownScreen();
+}
+
+void Escena1View::ToggleLed1(){
+
+	if (!toggleButton1.getState()) {
+		HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_SET);
+	}else{
+		HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_RESET);
+	}
+
+}
+
+void Escena1View::ToggleLed2(){
+
+	if (!toggleButton2.getState()) {
+		HAL_GPIO_WritePin(GPIOG, GPIO_PIN_14, GPIO_PIN_SET);
+	}else{
+		HAL_GPIO_WritePin(GPIOG, GPIO_PIN_14, GPIO_PIN_RESET);
+	}
+
+}
