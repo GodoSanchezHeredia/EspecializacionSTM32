@@ -1,0 +1,2 @@
+../ui/ui_events.c:9:6:buttonled1	16	static
+../ui/ui_events.c:16:6:buttonled2	16	static

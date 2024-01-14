@@ -1,0 +1,6 @@
+../lvgl/src/draw/sw/../../misc/lv_area.h:123:26:lv_area_get_width	1
+../lvgl/src/draw/sw/../../misc/lv_area.h:133:26:lv_area_get_height	1
+../lvgl/src/draw/sw/lv_draw_sw_layer.c:43:31:lv_draw_sw_layer_create	8
+../lvgl/src/draw/sw/lv_draw_sw_layer.c:96:6:lv_draw_sw_layer_adjust	2
+../lvgl/src/draw/sw/lv_draw_sw_layer.c:117:6:lv_draw_sw_layer_blend	2
+../lvgl/src/draw/sw/lv_draw_sw_layer.c:142:6:lv_draw_sw_layer_destroy	1

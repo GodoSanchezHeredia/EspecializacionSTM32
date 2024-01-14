@@ -1,0 +1,6 @@
+../hal_stm_lvgl/tft/ili9341.c:101:6:ili9341_Init	8	static
+../hal_stm_lvgl/tft/ili9341.c:230:6:ili9341_DisplayOn	8	static
+../hal_stm_lvgl/tft/ili9341.c:241:6:ili9341_DisplayOff	8	static
+../hal_stm_lvgl/tft/ili9341.c:252:6:ili9341_WriteReg	16	static
+../hal_stm_lvgl/tft/ili9341.c:262:6:ili9341_WriteData	16	static
+../hal_stm_lvgl/tft/ili9341.c:273:10:ili9341_ReadData	16	static

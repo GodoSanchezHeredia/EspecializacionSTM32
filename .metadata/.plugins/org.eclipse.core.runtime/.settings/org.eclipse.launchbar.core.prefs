@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:X-CUBE-DSPDEMO Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lv_port_stm32f429_disco Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f429_disco_no_os_sw4stm32 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:prueba1 Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:X-CUBE-DSPDEMO Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lv_port_stm32f429_disco Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f429_disco_no_os_sw4stm32 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_LVGL_sample,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F429x_LVGL_sample Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo9_ADC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo39_LVGL Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo10_ADC_INJEC\ Debug/activeLaunchTarget=null\:---
@@ -54,3 +54,5 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template\ Debug/activeLaunchMod
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Template\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:X-CUBE-DSPDEMO\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:X-CUBE-DSPDEMO\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:prueba1\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:prueba1\ Debug/activeLaunchTarget=null\:---

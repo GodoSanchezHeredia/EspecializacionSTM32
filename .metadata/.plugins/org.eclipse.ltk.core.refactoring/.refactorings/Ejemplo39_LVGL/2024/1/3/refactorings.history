@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ejemplo39_LVGL/F429x_LVGL_sample.ioc&apos; to &apos;Ejemplo39_LVGL.ioc&apos;" description="Rename resource &apos;F429x_LVGL_sample.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="F429x_LVGL_sample.ioc" name="Ejemplo39_LVGL.ioc" stamp="1705264159906" updateReferences="true"/>
+</session>

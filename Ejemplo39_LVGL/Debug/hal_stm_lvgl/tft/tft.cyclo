@@ -1,0 +1,16 @@
+../hal_stm_lvgl/tft/tft.c:115:6:monitor_cb	1
+../hal_stm_lvgl/tft/tft.c:123:6:tft_init	1
+../hal_stm_lvgl/tft/tft.c:157:13:tft_flush	6
+../hal_stm_lvgl/tft/tft.c:191:13:LCD_Config	3
+../hal_stm_lvgl/tft/tft.c:299:6:LTDC_IRQHandler	1
+../hal_stm_lvgl/tft/tft.c:313:6:HAL_LTDC_MspInit	1
+../hal_stm_lvgl/tft/tft.c:402:6:HAL_LTDC_MspDeInit	1
+../hal_stm_lvgl/tft/tft.c:437:13:SDRAM_Init	2
+../hal_stm_lvgl/tft/tft.c:487:13:SDRAM_Initialization_Sequence	1
+../hal_stm_lvgl/tft/tft.c:550:6:HAL_SDRAM_MspInit	1
+../hal_stm_lvgl/tft/tft.c:638:6:HAL_SDRAM_MspDeInit	1
+../hal_stm_lvgl/tft/tft.c:680:13:DMA_Config	2
+../hal_stm_lvgl/tft/tft.c:723:13:DMA_TransferComplete	3
+../hal_stm_lvgl/tft/tft.c:748:13:DMA_TransferError	1
+../hal_stm_lvgl/tft/tft.c:760:6:DMA2_Stream0_IRQHandler	1
+../hal_stm_lvgl/tft/tft.c:772:13:Error_Handler	1

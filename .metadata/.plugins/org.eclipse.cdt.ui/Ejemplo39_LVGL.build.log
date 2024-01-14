@@ -1,0 +1,17 @@
+16:28:49 **** Incremental Build of configuration Debug for project Ejemplo39_LVGL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo39_LVGL" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo39_LVGL/ui" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc -o "Ejemplo39_LVGL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo39_LVGL\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo39_LVGL.map" -Wl,--cref -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo39_LVGL.elf
+ 
+arm-none-eabi-size   Ejemplo39_LVGL.elf 
+arm-none-eabi-objdump -h -S  Ejemplo39_LVGL.elf  > "Ejemplo39_LVGL.list"
+   text	   data	    bss	    dec	    hex	filename
+ 338908	    284	  38460	 377652	  5c334	Ejemplo39_LVGL.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo39_LVGL.list
+ 
+
+16:29:15 Build Finished. 0 errors, 0 warnings. (took 26s.168ms)
+

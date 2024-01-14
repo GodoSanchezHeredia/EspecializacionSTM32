@@ -1,0 +1,16 @@
+../hal_stm_lvgl/tft/tft.c:115:6:monitor_cb	24	static
+../hal_stm_lvgl/tft/tft.c:123:6:tft_init	8	static
+../hal_stm_lvgl/tft/tft.c:157:13:tft_flush	48	static
+../hal_stm_lvgl/tft/tft.c:191:13:LCD_Config	64	static
+../hal_stm_lvgl/tft/tft.c:299:6:LTDC_IRQHandler	8	static
+../hal_stm_lvgl/tft/tft.c:313:6:HAL_LTDC_MspInit	64	static
+../hal_stm_lvgl/tft/tft.c:402:6:HAL_LTDC_MspDeInit	16	static
+../hal_stm_lvgl/tft/tft.c:437:13:SDRAM_Init	8	static
+../hal_stm_lvgl/tft/tft.c:487:13:SDRAM_Initialization_Sequence	24	static
+../hal_stm_lvgl/tft/tft.c:550:6:HAL_SDRAM_MspInit	64	static
+../hal_stm_lvgl/tft/tft.c:638:6:HAL_SDRAM_MspDeInit	16	static
+../hal_stm_lvgl/tft/tft.c:680:13:DMA_Config	16	static
+../hal_stm_lvgl/tft/tft.c:723:13:DMA_TransferComplete	16	static
+../hal_stm_lvgl/tft/tft.c:748:13:DMA_TransferError	16	static
+../hal_stm_lvgl/tft/tft.c:760:6:DMA2_Stream0_IRQHandler	8	static
+../hal_stm_lvgl/tft/tft.c:772:13:Error_Handler	4	static
