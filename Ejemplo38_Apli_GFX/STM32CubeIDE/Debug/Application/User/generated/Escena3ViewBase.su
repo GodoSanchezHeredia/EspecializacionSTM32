@@ -31,7 +31,7 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:403:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard2() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Escena3Presenter>::~View()	0	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:69:6:virtual void Escena3ViewBase::setupScreen()	0	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:69:6:virtual void Escena3ViewBase::setupScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:35:7:touchgfx::Shape<4>::~Shape()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:38:17:int touchgfx::Shape<POINTS>::getNumPoints() const [with short unsigned int POINTS = 4]	0	static
@@ -45,8 +45,8 @@ C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/esce
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:35:7:virtual touchgfx::Shape<4>::~Shape()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Escena3Presenter>::~View()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:64:1:Escena3ViewBase::~Escena3ViewBase()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:64:1:virtual Escena3ViewBase::~Escena3ViewBase()	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:64:1:Escena3ViewBase::~Escena3ViewBase()	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:64:1:virtual Escena3ViewBase::~Escena3ViewBase()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
@@ -57,4 +57,4 @@ C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/esce
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:35:7:touchgfx::Shape<4>::Shape()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp:126:10:void touchgfx::AbstractShape::setShape(const touchgfx::AbstractShape::ShapePoint<T>*) [with T = float]	24	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:10:1:Escena3ViewBase::Escena3ViewBase()	152	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena3_screen/Escena3ViewBase.cpp:10:1:Escena3ViewBase::Escena3ViewBase()	152	static

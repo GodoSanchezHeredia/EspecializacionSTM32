@@ -1,5 +1,5 @@
 Application/User/generated/GeneratedFont.o: \
- C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
+ C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

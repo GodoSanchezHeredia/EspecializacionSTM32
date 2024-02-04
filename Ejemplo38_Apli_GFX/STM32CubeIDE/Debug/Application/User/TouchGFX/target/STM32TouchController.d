@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/STM32TouchController.o: \
- C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/STM32TouchController.cpp \
+ C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/STM32TouchController.cpp \
  ../../TouchGFX/target/STM32TouchController.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

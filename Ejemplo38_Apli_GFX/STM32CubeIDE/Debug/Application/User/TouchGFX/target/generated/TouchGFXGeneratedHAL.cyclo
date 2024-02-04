@@ -35,22 +35,22 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:302:44:virtual touchgfx::AbstractPainterLinearGradient& touchgfx::CWRVectorRendererRGB565::getLinearPainter()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:307:35:virtual touchgfx::AbstractPainterColor& touchgfx::CWRVectorRendererRGB565::getColorPainterColor()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:312:30:virtual touchgfx::AbstractPainter& touchgfx::CWRVectorRendererRGB565::getColorPainter()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:30:36:void __tcf_1()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:57:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:75:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:96:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:101:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:30:36:void __tcf_1()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:57:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:75:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:96:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:101:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:300:7:touchgfx::CWRVectorRendererRGB565::~CWRVectorRendererRGB565()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:189:11:touchgfx::CWRVectorRenderer::CanvasWidgetProxy::~CanvasWidgetProxy()	1
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	1
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:189:11:virtual touchgfx::CWRVectorRenderer::CanvasWidgetProxy::~CanvasWidgetProxy()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:300:7:virtual touchgfx::CWRVectorRendererRGB565::~CWRVectorRendererRGB565()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:50:6:virtual void TouchGFXGeneratedHAL::initialize()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:86:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:91:6:virtual void TouchGFXGeneratedHAL::endFrame()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:109:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:114:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:50:6:virtual void TouchGFXGeneratedHAL::initialize()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:86:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:91:6:virtual void TouchGFXGeneratedHAL::endFrame()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:109:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:114:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:638:18:virtual void touchgfx::HAL::backPorchExited()	1
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:106:18:virtual void TouchGFXGeneratedHAL::flushFrameBuffer()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
@@ -58,8 +58,8 @@ C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGenerat
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:1162:18:virtual void touchgfx::HAL::performDisplayOrientationChange()	4
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:720:18:virtual void touchgfx::HAL::setFrameBufferStartAddresses(void*, void*, void*)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:156:18:virtual void touchgfx::HAL::setFrameBufferSize(uint16_t, uint16_t)	2
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:63:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:69:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:63:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:69:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	4
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:28:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	3
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:121:10:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:28:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	3
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:121:10:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	3

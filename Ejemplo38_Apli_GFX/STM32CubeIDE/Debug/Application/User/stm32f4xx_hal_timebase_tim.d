@@ -1,5 +1,5 @@
 Application/User/stm32f4xx_hal_timebase_tim.o: \
- C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_timebase_tim.c \
+ C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_hal_timebase_tim.c \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \

@@ -29,11 +29,11 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/SlideTransition.hpp:154:18:void touchgfx::SlideTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::EAST]	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/SlideTransition.hpp:87:18:void touchgfx::SlideTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::EAST]	4
 ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	3
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:58:6:void FrontendApplicationBase::gotoEscena2ScreenBlockTransitionImpl()	9
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:45:6:void FrontendApplicationBase::gotoEscena1ScreenNoTransitionImpl()	8
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:71:6:void FrontendApplicationBase::gotoEscena3ScreenSlideTransitionEastImpl()	9
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:58:6:void FrontendApplicationBase::gotoEscena2ScreenBlockTransitionImpl()	9
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:45:6:void FrontendApplicationBase::gotoEscena1ScreenNoTransitionImpl()	8
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:71:6:void FrontendApplicationBase::gotoEscena3ScreenSlideTransitionEastImpl()	9
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:268:17:static touchgfx::LCD& touchgfx::HAL::lcd()	3
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:21:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:39:6:void FrontendApplicationBase::gotoEscena1ScreenNoTransition()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:52:6:void FrontendApplicationBase::gotoEscena2ScreenBlockTransition()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:65:6:void FrontendApplicationBase::gotoEscena3ScreenSlideTransitionEast()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:21:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:39:6:void FrontendApplicationBase::gotoEscena1ScreenNoTransition()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:52:6:void FrontendApplicationBase::gotoEscena2ScreenBlockTransition()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:65:6:void FrontendApplicationBase::gotoEscena3ScreenSlideTransitionEast()	1

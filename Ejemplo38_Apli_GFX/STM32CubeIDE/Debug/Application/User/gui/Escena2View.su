@@ -1,10 +1,10 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:13:6:virtual void Escena2View::tearDownScreen()	0	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:13:6:virtual void Escena2View::tearDownScreen()	0	static
 ../../TouchGFX/gui/include/gui/escena2_screen/Escena2View.hpp:11:13:Escena2View::~Escena2View()	8	static
 ../../TouchGFX/gui/include/gui/escena2_screen/Escena2View.hpp:11:13:virtual Escena2View::~Escena2View()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:3:1:Escena2View::Escena2View()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:8:6:virtual void Escena2View::setupScreen()	0	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:19:6:virtual void Escena2View::UpCounter()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:27:6:virtual void Escena2View::DownCounter()	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:3:1:Escena2View::Escena2View()	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:8:6:virtual void Escena2View::setupScreen()	0	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:19:6:virtual void Escena2View::UpCounter()	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena2_screen/Escena2View.cpp:27:6:virtual void Escena2View::DownCounter()	8	static

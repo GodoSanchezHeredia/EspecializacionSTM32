@@ -1,5 +1,5 @@
 Application/User/generated/Escena1ViewBase.o: \
- C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp \
+ C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/escena1_screen/Escena1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

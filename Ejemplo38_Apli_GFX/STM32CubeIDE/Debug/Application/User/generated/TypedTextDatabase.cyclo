@@ -1,6 +1,6 @@
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:36:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:41:10:uint16_t TypedTextDatabase::getInstanceSize()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:46:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:51:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:58:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	4
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:73:1:cpp)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:36:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:41:10:uint16_t TypedTextDatabase::getInstanceSize()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:46:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:51:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:58:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	4
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:73:1:cpp)	1

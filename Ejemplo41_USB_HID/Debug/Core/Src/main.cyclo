@@ -1,0 +1,6 @@
+../Core/Src/main.c:65:6:USBH_HID_EventCallback	5
+../Core/Src/main.c:99:5:main	1
+../Core/Src/main.c:145:6:SystemClock_Config	3
+../Core/Src/main.c:191:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:224:13:MX_GPIO_Init	1
+../Core/Src/main.c:257:6:Error_Handler	1

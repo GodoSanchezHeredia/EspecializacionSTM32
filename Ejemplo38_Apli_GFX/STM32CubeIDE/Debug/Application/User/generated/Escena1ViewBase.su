@@ -23,8 +23,8 @@
 ../../TouchGFX/generated/gui_generated/include/gui_generated/escena1_screen/Escena1ViewBase.hpp:24:18:virtual void Escena1ViewBase::ToggleLed1()	0	static
 ../../TouchGFX/generated/gui_generated/include/gui_generated/escena1_screen/Escena1ViewBase.hpp:28:18:virtual void Escena1ViewBase::ToggleLed2()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Escena1Presenter>::~View()	0	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:40:1:Escena1ViewBase::~Escena1ViewBase()	0	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:45:6:virtual void Escena1ViewBase::setupScreen()	0	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:40:1:Escena1ViewBase::~Escena1ViewBase()	0	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:45:6:virtual void Escena1ViewBase::setupScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:123:18:void touchgfx::BoxWithBorderButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<Escena1ViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	0	static
@@ -41,15 +41,15 @@ C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/esce
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:41:7:virtual touchgfx::BoxWithBorderButtonStyle<touchgfx::ClickButtonTrigger>::~BoxWithBorderButtonStyle()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<Escena1ViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<Escena1ViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:40:1:virtual Escena1ViewBase::~Escena1ViewBase()	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:40:1:virtual Escena1ViewBase::~Escena1ViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:50:6:void Escena1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:50:6:void Escena1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:47:18:virtual void touchgfx::ClickButtonTrigger::handleClickEvent(const touchgfx::ClickEvent&)	16	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:68:6:void Escena1ViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	8	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:68:6:void Escena1ViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:33:5:touchgfx::Box::Box()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:32:7:touchgfx::ToggleButton::ToggleButton()	8	static
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:8:1:Escena1ViewBase::Escena1ViewBase()	72	static
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/generated/gui_generated/src/escena1_screen/Escena1ViewBase.cpp:8:1:Escena1ViewBase::Escena1ViewBase()	72	static

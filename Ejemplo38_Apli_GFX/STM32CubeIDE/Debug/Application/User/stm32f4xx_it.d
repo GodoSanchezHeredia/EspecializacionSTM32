@@ -1,5 +1,5 @@
 Application/User/stm32f4xx_it.o: \
- C:/TouchGFXProjects/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_it.c \
+ C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/Core/Src/stm32f4xx_it.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \

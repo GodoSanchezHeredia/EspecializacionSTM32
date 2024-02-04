@@ -1,0 +1,17 @@
+15:57:21 **** Incremental Build of configuration Debug for project Ejemplo41_USB_HID ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_HOST/App -I../USB_HOST/Target -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ejemplo41_USB_HID.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo41_USB_HID\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo41_USB_HID.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo41_USB_HID.elf
+ 
+arm-none-eabi-size   Ejemplo41_USB_HID.elf 
+arm-none-eabi-objdump -h -S  Ejemplo41_USB_HID.elf  > "Ejemplo41_USB_HID.list"
+   text	   data	    bss	    dec	    hex	filename
+  33804	    132	   3884	  37820	   93bc	Ejemplo41_USB_HID.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo41_USB_HID.list
+ 
+
+15:57:24 Build Finished. 0 errors, 0 warnings. (took 2s.760ms)
+

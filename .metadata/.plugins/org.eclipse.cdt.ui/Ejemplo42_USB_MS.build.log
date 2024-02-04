@@ -1,0 +1,17 @@
+16:53:42 **** Incremental Build of configuration Debug for project Ejemplo42_USB_MS ****
+make -j4 all 
+arm-none-eabi-gcc "../USB_HOST/App/usb_host.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_HOST/App/usb_host.d" -MT"USB_HOST/App/usb_host.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_HOST/App/usb_host.o"
+arm-none-eabi-gcc -o "Ejemplo42_USB_MS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\DELL\Documents\GitHub\EspecializacionSTM32\Ejemplo42_USB_MS\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo42_USB_MS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo42_USB_MS.elf
+ 
+arm-none-eabi-size   Ejemplo42_USB_MS.elf 
+arm-none-eabi-objdump -h -S  Ejemplo42_USB_MS.elf  > "Ejemplo42_USB_MS.list"
+   text	   data	    bss	    dec	    hex	filename
+  63860	    132	  13576	  77568	  12f00	Ejemplo42_USB_MS.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ejemplo42_USB_MS.list
+ 
+
+16:53:45 Build Finished. 0 errors, 0 warnings. (took 3s.39ms)
+

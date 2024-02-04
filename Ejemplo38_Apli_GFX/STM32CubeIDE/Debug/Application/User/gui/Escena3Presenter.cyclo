@@ -1,7 +1,7 @@
 ../../TouchGFX/gui/include/gui/escena3_screen/Escena3Presenter.hpp:28:13:Escena3Presenter::~Escena3Presenter()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:10:6:virtual void Escena3Presenter::activate()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:20:6:virtual void Escena3Presenter::setLight(bool)	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:25:6:virtual void Escena3Presenter::setADC(int)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:10:6:virtual void Escena3Presenter::activate()	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:20:6:virtual void Escena3Presenter::setLight(bool)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:25:6:virtual void Escena3Presenter::setADC(int)	1
 ../../TouchGFX/gui/include/gui/escena3_screen/Escena3Presenter.hpp:28:13:virtual Escena3Presenter::~Escena3Presenter()	1
 ../../TouchGFX/gui/include/gui/escena3_screen/Escena3Presenter.hpp:28:13:virtual void* Escena3Presenter::_ZThn4_N16Escena3PresenterD1Ev()	1
-C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:4:1:Escena3Presenter::Escena3Presenter(Escena3View&)	1
+C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3Presenter.cpp:4:1:Escena3Presenter::Escena3Presenter(Escena3View&)	1

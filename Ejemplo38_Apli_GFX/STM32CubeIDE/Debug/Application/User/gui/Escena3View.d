@@ -1,5 +1,5 @@
 Application/User/gui/Escena3View.o: \
- C:/TouchGFXProjects/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp \
+ C:/Users/DELL/Documents/GitHub/EspecializacionSTM32/Ejemplo38_Apli_GFX/TouchGFX/gui/src/escena3_screen/Escena3View.cpp \
  ../../TouchGFX/gui/include/gui/escena3_screen/Escena3View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/escena3_screen/Escena3ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
